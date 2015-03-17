@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Maya" Type="Public" Repeat="True">
+    <Model>
+      <Pattern>{OPEN SOURCE}</Pattern>
+      <Response>Did you mean <a href="#" class="Syn_Link">Are you open source?</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>ARE YOU OPEN SOURCE</Pattern>
+      <Response>My knowledge base written in SIML is open source and can be downloaded from our <a href="https://github.com/Synthetic-Intelligence-Network">GitHub Repository</a> for free.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>HOW CAN I DOWNLOAD YOU TO MY COMPUTER</Item>
+        <Item>CAN I DOWNLOAD MAYA</Item>
+      </Pattern>
+      <Response>You can't download me to your computer. I am a web based application.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>ARE YOU JARVIS</Pattern>
+      <Response>No I am not.</Response>
+    </Model>
+
+  </Concept>
+</Siml>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Website Functions" Type="Public" Repeat="True">
+    <Model>
+      <Pattern>SEARCH GOOGLE FOR *</Pattern>
+      <Response>
+        <Define Key="{term}">
+          <Match />
+        </Define>
+        <a href="https://www.google.com/search?q={term}" target="_blank">Click Here</a> for Results.
+      </Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>OPEN YOUTUBE</Item>
+        <Item>PLAY VIDEOS</Item>
+      </Pattern>
+      <Response>
+        <a href="https://www.youtube.com" target="_blank">Click Here</a> to launch YouTube.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>OPEN (GOOGLE|FACEBOOK|TWITTER|YOUTUBE|GMAIL)</Pattern>
+      <Response>
+        <Define Key="{site}">
+          <Match />
+        </Define>
+        <a href="www.{site}.com" target="_blank">Click Here</a> to open <Match />.
+      </Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>PLAY A MUSIC</Item>
+        <Item>PLAY MUSIC</Item>
+        <Item>PLAY A SONG</Item>
+        <Item>PLAY SONG</Item>
+      </Pattern>
+      <Response>Visit <a href="http://www.stereomood.com/">Stereomood.com</a> and select your mood.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>HOW IS THE WEATHER</Item>
+        <Item>WHAT IS THE WEATHER</Item>
+      </Pattern>
+      <Response>
+        <a href="http://www.accuweather.com/en/us/kansas-city-mo/64106/weather-forecast/329441" class="aw-widget-legal"></a>
+        <div id="awcc1420714986193" class="aw-widget-current" data-locationkey="" data-unit="f" data-language="en-us" data-useip="true" data-uid="awcc1420714986193"></div>
+        <script type="text/javascript" src="http://oap.accuweather.com/launch.js"></script>
+      </Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>OPEN EMAILS</Item>
+        <Item>OPEN EMAIL</Item>
+      </Pattern>
+      <Response>Gmail, Outlook or yahoo?</Response>
+      <Model>
+        <Pattern>gmail</Pattern>
+        <Response>
+          <a href="http://www.gmail.com">Click here</a> to open Gmail.</Response>
+      </Model>
+
+      <Model>
+        <Pattern>outlook</Pattern>
+        <Response>
+          <a href="http://www.outlook.com">Click here</a> to open Outlook.</Response>
+      </Model>
+
+      <Model>
+        <Pattern>yahoo</Pattern>
+        <Response>
+          <a href="http://www.yahoomail.com">Click here</a> to open YahooMail.</Response>
+      </Model>
+
+    </Model>
+
+    <Model>
+      <Pattern>ADD * AND * AND THEN SUBTRACT * FROM IT</Pattern>
+      <Response>The answer might be <Math>(<Match />+<Match Index="2" />)-<Match Index="3" /></Math></Response>
+    </Model>
+
+  </Concept>
+</Siml>

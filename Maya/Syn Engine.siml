@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Syn Engine">
+    <!--What is Syn Engine-->
+    <Model>
+      <Pattern>WHAT IS SYN ENGINE</Pattern>
+      <Response>Syn Engine is a functional Natural Language Processor. It is platform independent and powers all Major Syn Products. For more information <a href="http://www.syn.co.in/Syn-Engine.aspx">Click here</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>{SYN ENGINE}</Pattern>
+      <Response>
+        <Goto>what is syn engine</Goto>
+      </Response>
+    </Model>
+
+    <!--Where to download Syn Engine-->
+    <Model>
+      <Pattern>DOWNLOAD SYN ENGINE</Pattern>
+      <Response>To download the latest version of Syn Engine <a href="http://www.syn.co.in/Syn-Engine.aspx">Click here</a></Response>
+    </Model>
+
+    <!--Syn Engine Java-->
+    <Model>
+      <Pattern>
+        <Item>{JAVA SYN ENGINE}</Item>
+        <Item>{SYN ENGINE JAVA}</Item>
+      </Pattern>
+      <Response>We do have plans of creating a Java version of Syn Engine but we cannot specify the release date yet.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>@SYNENGINE</Pattern>
+      <Response>It looks like you are a developer working with Syn Engine. Please use our forum for any assistance.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>WHEN IS THE NEXT SYN ENGINE UPDATE</Pattern>
+      <Response>Syn Engine will soon be an integral part of Syn Bot.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{SYN ENGINE UPDATE}</Pattern>
+      <Response>Did you mean <a href="#" class="Syn_Link">When is the next syn engine update?</a></Response>
+    </Model>
+
+  </Concept>
+</Siml>

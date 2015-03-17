@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Syn Virtual Assistant">
+    <Model>
+      <Pattern>
+        <Item>{SYN VIRTUAL ASSISTANT}</Item>
+        <Item>WHAT IS SYN VIRTUAL ASSISTANT</Item>
+      </Pattern>
+      <Response>
+        <Label>what.sva</Label>
+            Syn Virtual Assistant is an AI assistant designed to help user interact with their computer using voice. Would you like to download Syn Virtual Assistant ?
+            </Response>
+      <Model>
+        <Pattern>[YES]</Pattern>
+        <Response>
+          <Goto>Download Syn Virtual Assistant</Goto>
+        </Response>
+      </Model>
+
+      <Model>
+        <Pattern>[NO]</Pattern>
+        <Response>:(</Response>
+      </Model>
+
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>#DOWNLOAD SYN VIRTUAL ASSISTANT</Item>
+        <Item>{DOWNLOAD SYN VIRTUAL ASSISTANT}</Item>
+      </Pattern>
+      <Response>
+            To download Syn Virtual Assistant <a href="http://www.syn.co.in/Syn-Virtual-Assistant.aspx">Click Here.</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>EXTENDED LICENSE FOR SYN VIRTUAL ASSISTANT</Item>
+        <Item>HOW MUCH IS SYN VIRTUAL ASSISTANT EXTENDED LICENSE</Item>
+        <Item>COST OF EXTENDED LICENSE FOR SYN VIRTUAL ASSISTANT</Item>
+        <Item>WHAT IS THE COST OF SYN VIRTUAL ASSISTANT EXTENDED LICENSE</Item>
+        <Item>HOW MUCH IS THE EXTENDED LICENSE FOR SYN VIRTUAL ASSISTANT</Item>
+        <Item>WHAT IS THE COST OF AN EXTENDED LICENSE FOR SYN VIRTUAL ASSISTANT</Item>
+      </Pattern>
+      <Response>
+            Extended License is for non-commercial use and unlocks more features.<a href="http://www.syn.co.in/Contribute.aspx">Click Here to know more.</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>{EXTENDED LICENSE}</Pattern>
+      <Response>
+        <Label>dym.extended.license</Label>
+            Did you mean...<li><a href="#" class="Syn_Link">Extended License for Syn Virtual Assistant</a></li></Response>
+      <Model>
+        <Pattern>[YES]</Pattern>
+        <Response>
+          <Goto>extended license for syn virtual assistant</Goto>
+        </Response>
+      </Model>
+
+    </Model>
+
+    <Model>
+      <Pattern>IS THERE A COMMERCIAL VERSION OF SYN VIRTUAL ASSISTANT</Pattern>
+      <Response>There is no commercial versions of Syn Virtual Assistant. There is ofcourse a commercial license for Business purposes.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>SYN IS NOT WORKING</Item>
+        <Item>SYN VIRTUAL ASSISTANT IS NOT WORKING</Item>
+        <Item>SYN VIRTUAL ASSISTANT IS NOT * TO ME</Item>
+        <Item>{NEED HELP SYN VIRTUAL ASSISTANT}</Item>
+        <Item>HOW TO SET UP SYN WEB ASSISTANT</Item>
+      </Pattern>
+      <Response>
+            If you have issues running Syn Virtual Assistant please use <a href="http://forum.syn.co.in/" target="_blank">Syn Forum.</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>{PROBLEM SYN VIRTUAL ASSISTANT}</Item>
+        <Item>{ISSUE SYN VIRTUAL ASSISTANT}</Item>
+        <Item>{NOT WORKING SYN VIRTUAL ASSISTANT}</Item>
+      </Pattern>
+      <Response>
+            Are you having trouble using Syn Virtual Assistant ?</Response>
+      <Model>
+        <Pattern>[YES]</Pattern>
+        <Response>
+          <Goto>Syn Virtual Assistant is not working</Goto>
+        </Response>
+      </Model>
+
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>WHAT IS THE SYSTEM REQUIREMENT FOR SYN VIRTUAL ASSISTANT</Item>
+        <Item>WILL SYN VIRTUAL ASSISTANT WORK *</Item>
+        <Item>SYSTEM REQUIREMENT * SYN VIRTUAL ASSISTANT</Item>
+        <Item>{SYSTEM REQUIREMENT SYN VIRTUAL ASSISTANT}</Item>
+      </Pattern>
+      <Response>Syn Virtual Assistant Prototype 8 requires Windows 7 or Windows 8, 2 GB RAM, 250MB disk space, a good graphic card and a microphone with noice cancellation.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{AIML}</Pattern>
+      <Response>Syn Virtual Assistant uses Syn Engine for Natural Language Processing. Currently AIML is supported but in the future Syn Virtual Assistant will use SIML. SIML stands for Synthetic Intelligence Markup Language and is a next generation chatbot architecture.</Response>
+    </Model>
+
+    <!--Guile 3D Denise-->
+    <Model>
+      <Pattern>
+        <Item>{DENISE}</Item>
+        <Item>{GUILE}</Item>
+      </Pattern>
+      <Response>Denise reminds me of my Granny. But I appreciate any work towards AI. My creator wishes to make AI open to the world.</Response>
+    </Model>
+
+    <!--Jarvis-->
+    <Model>
+      <Pattern>{JARVIS}</Pattern>
+      <Response>Jarvis 3D Avatar is available to Extended License owners. For more details <a href="Jarvis-AI.aspx">Click here</a></Response>
+    </Model>
+
+    <!--Syn Virtual Assistant on Linux-->
+    <Model>
+      <Pattern>
+        <Item>{SYN VIRTUAL ASSISTANT LINUX}</Item>
+        <Item>{LINUX SYN VIRTUAL ASSISTANT}</Item>
+      </Pattern>
+      <Response>We do have plans to support the Linux platform. It has been considered but no confirmed development has been announced.</Response>
+    </Model>
+
+    <!--Syn Virtual Assistant Language-->
+    <Model>
+      <Pattern>
+        <Item>{LANGUAGE SYN VIRTUAL ASSISTANT}</Item>
+        <Item>{SYN VIRTUAL ASSISTANT LANGUAGE}</Item>
+      </Pattern>
+      <Response>Syn Virtual Assistant is available in English. But supporters have translated "some" XML Files to their native languages. Visit <a href="Store.aspx">Syn Store</a> to check if a suitable translation-package exists.</Response>
+    </Model>
+
+    <!--Email Configuration-->
+    <Model>
+      <Pattern>
+        <Item>EMAIL CONFIGURATION</Item>
+        <Item>EMAIL ERRORS WITH SYN</Item>
+        <Item>EMAIL ERROR WITH SYN</Item>
+        <Item>HOW TO SETUP EMAIL</Item>
+        <Item>{EMAIL ERROR}</Item>
+        <Item>{EMAIL ERRORS}</Item>
+      </Pattern>
+      <Response>Are you having trouble setting up the Email service in Syn Virtual Assistant ?</Response>
+      <Model>
+        <Pattern>[yes]</Pattern>
+        <Response>Email setup is not an easy task at hand please make a post in our Forum and a developer will help you out.</Response>
+      </Model>
+
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>HOW CAN I UPDATE SYN VIRTUAL ASSISTANT</Item>
+        <Item>HELP ME TO UPDATE SYN VIRTUAL ASSISTANT</Item>
+      </Pattern>
+      <Response>To update Syn Virtual Assistant visit the Store and download the latest update. Use the Package manager in your Settings Panel, select the downloaded package and click Install.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>CAN I USE THE ASSISTANT WITH OUT THE AVATAR</Pattern>
+      <Response>Yes you can use the dock mode in the Settings Panel. For more information please visit our <a href="forum.syn.co.in">Forum</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>HOW CAN I INSTALL SYN IN FRENCH</Item>
+        <Item>{SYN FRENCH}</Item>
+      </Pattern>
+      <Response>At the moment Syn Virtual Assistant doesn't speak in French.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>HOW CAN I CHANGE THE SKIN OF MY AI</Item>
+        <Item>{CHANGE SYN VIRTUAL ASSISTANT}</Item>
+      </Pattern>
+      <Response>To customize Syn Virtual Assistant you should download items from <a href="http://syn.co.in/Store.aspx">Syn Store</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>IS THE SYN PRODUCT AVAILABLE FOR MAC</Item>
+        <Item>IS THERE SYN VIRTUAL ASSISTANT FOR MAC</Item>
+        <Item>IS THERE SYN FOR MAC</Item>
+      </Pattern>
+      <Response>I am afraid not. Currently MAC OS is not supported.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{SYN MAC}</Pattern>
+      <Response>Did you mean <a href="#" class="Syn_Link">Is there Syn Virtual Assistant for Mac?</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>CAN SYN VIRTUAL ASSISTANT * INPUT REMOTELY THROUGH WEB</Pattern>
+      <Response>Please check Syn Store for a plugin that can help you achieve that.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>HOW TO SAVE ALL FILES AS PACKAGE</Item>
+        <Item>HOW TO CREATE A SYN PACKAGE</Item>
+      </Pattern>
+      <Response>Go to the Settings Panel and select Tools to creat a package. You can visit our <a href="http://syn.co.in/wiki/index.php?title=Main_Page">Wiki Centre</a> for more info.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{SYN PACKAGE}</Pattern>
+      <Response>Did you mean <a href="#" class="Syn_Link">How to create a Syn Package?</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>SETTING UP MIC</Pattern>
+      <Response>To learn so to how you can setup mic for Syn Virtual Assistant please visit our Forum.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>HOW DO I SYNC</Pattern>
+      <Response>Syncing of files in Syn Virtual Assistant is currently not supported. This feature will be available in the next version.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>{LANGUAGE PACKAGE}</Item>
+        <Item>{LANGUAGE PACK}</Item>
+      </Pattern>
+      <Response>English is the only officially supported language. Language packs are a way to replace a "few" commands into native languages. Please visit <a href="http://store.syn.co.in">Syn Store</a> to check if a language pack is available for you.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>HOW TO CREATE AN AVATAR</Item>
+        <Item>HOW TO CREATE * AVATAR FOR *</Item>
+        <Item>* STUDIO FOR CREATING AVATARS *</Item>
+        <Item>* FOR CREATING AVATARS *</Item>
+      </Pattern>
+      <Response>Please visit <a href="#">Syn Wiki Centre</a> for documentations on creating a 2D and 3D Avatar for Syn Virtual Assistant.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>{CUSTOM AVATAR}</Item>
+        <Item>{CUSTOM AVATARS}</Item>
+        <Item>{CREATE AVATAR}</Item>
+        <Item>{CREATING AVATAR}</Item>
+        <Item>{CREATE AVATARS}</Item>
+        <Item>{CREATING AVATARS}</Item>
+      </Pattern>
+      <Response>Did you mean <a href="#" class="Syn_Link">How to create an avatar for Syn Virtual Assistant?</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>SWATCHES</Item>
+        <Item>HOW TO WRITE A SWATCH</Item>
+        <Item>SYNTAX FOR A SWATCH</Item>
+      </Pattern>
+      <Response>Swatches contain Patterns and Replies. "Patterns" are written in regular expressions and "Replies" are just the desired output.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>{SWATCH}</Item>
+        <Item>{SWATCHES}</Item>
+      </Pattern>
+      <Response>Did you mean <a href="#" class="Syn_Link">SYNTAX FOR A SWATCH</a>?</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{ONLINE SPEECH RECOGNITION}</Pattern>
+      <Response>Online speech recognition plugin is an unofficial plugin by our community to help users interact with their Virtual Assistant using Speech. Visit <a href="http://store.syn.co.in">Syn Store</a> to download the Plugin. And if you need any help visit <a href="http://forum.syn.co.in">Syn Forum</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>IS SYN VIRTUAL ASSISTANT FREE</Pattern>
+      <Response>Yes! Syn Virtual Assistant is free.</Response>
+    </Model>
+
+  </Concept>
+</Siml>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Set Name="YES">
+    <Item>YES</Item>
+    <Item>YEAH</Item>
+    <Item>YEP</Item>
+    <Item>WHY NOT</Item>
+  </Set>
+  <Set Name="NO">
+    <Item>NO</Item>
+    <Item>NEVER</Item>
+    <Item>NOPE</Item>
+    <Item>NAH</Item>
+  </Set>
+  <Set Name="PRODUCT">
+    <Item>Syn Virtual Assistant</Item>
+    <Item>Syn Engine</Item>
+    <Item>Syn Web Assistant</Item>
+    <Item>SIML</Item>
+    <Item>Syn Bot</Item>
+  </Set>
+  <Set Name="Laz">
+    <Item>Leslie Timmy</Item>
+    <Item>Revarn</Item>
+    <Item>Laz</Item>
+    <Item>Leslie</Item>
+  </Set>
+</Siml>

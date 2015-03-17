@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<simlproject>
+  <name>Maya Web Assistant</name>
+  <directory>Maya</directory>
+  <botname>Maya</botname>
+  <personality>Syn Web Assistant</personality>
+  <author>Synthetic Intelligence Network</author>
+  <description>This is a project to demostrate Syn Web Assistant on Syn Website</description>
+  <date>1:59:06 PM, Monday, August 25, 2014</date>
+</simlproject>

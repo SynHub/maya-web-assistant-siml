@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Syn Web Assistant">
+    <!--What is Syn Web Assistant-->
+    <Model>
+      <Pattern>
+        <Item>WHAT IS SYN WEB ASSISTANT</Item>
+        <Item>I'M INTERESTED ON SYN WEB ASSISTANT</Item>
+      </Pattern>
+      <Response>Syn Web Assistant is a Fully Managed online web assistant. Its a service that has to be enabled on your website. For more information on feature and pricing. <a href="http://www.syn.co.in/Syn-Web-Assistant.aspx">Click Here</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>{SYN WEB ASSISTANT}</Pattern>
+      <Response>Did you mean <a href="#" class="Syn_Link">What is Syn Web Assistant?</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>Did you mean what is syn web assistant</Previous>
+      <Response>Please visit <a href="#">Syn Web Assistant</a> for more details.</Response>
+    </Model>
+
+    <!--Cost of Syn Web Assistant-->
+    <Model>
+      <Pattern>
+        <Item>{COST WEB ASSISTANT}</Item>
+        <Item>{WEB ASSISTANT COST}</Item>
+        <Item>{PRICING WEB ASSISTANT}</Item>
+        <Item>{PRICE WEB ASSISTANT}</Item>
+      </Pattern>
+      <Response>Cost and pricing for Syn Web Assistant depends on your website. To know more <a href="http://www.syn.co.in/Syn-Web-Assistant.aspx">Click Here</a></Response>
+    </Model>
+
+    <!--Download Syn Web Assistant-->
+    <Model>
+      <Pattern>{DOWNLOAD WEB ASSISTANT}</Pattern>
+      <Response>Syn Web Assistant is hosted on Syn Servers. You can have one for your website by logging in to your <a href="http://www.syn.co.in/Login.aspx">Syn Account.</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>HOW MUCH DO YOU COST</Item>
+        <Item>WHAT IS YOUR COST</Item>
+        <Item>WHAT WILL IT TAKE TO HAVE YOU ON MY WEBSITE</Item>
+        <Item>ARE YOU FREE</Item>
+      </Pattern>
+      <Response>
+        I am available on a monthly subscription basis. Please <a href="http://www.syn.co.in/Syn-Web-Assistant.aspx">Click Here</a> for more details.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{COST YOU}</Pattern>
+      <Response>Did you mean <a href="#" class="Syn_Link">How much do you cost?</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>DO YOU RUN * APACHE SERVER</Pattern>
+      <Response>At the moment I do not run on an Apache Server. The NuGet package <a href="https://www.nuget.org/packages/SynChat/">Syn Automated Live Chat</a> allows you to install me for free in your IIS server.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{APACHE SERVER}</Pattern>
+      <Response>Did you mean <a href="#" class="Syn_Link">Do you run on an Apache Server</a>?</Response>
+    </Model>
+
+  </Concept>
+</Siml>

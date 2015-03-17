@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Siml Bot">
+    <!--What is SIML Bot-->
+    <Model>
+      <Pattern>
+        <Item>WHAT IS SYN BOT</Item>
+        <Item>WHAT IS SIML BOT</Item>
+      </Pattern>
+      <Response>
+            Syn Bot is an official Synthetic Intelligence Markup Language interpreter developed by us. You can use SIML Bot in your free or commercial software as long as you are a single-developer. 
+      </Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>{SYN BOT}</Item>
+        <Item>{SIML BOT}</Item>
+      </Pattern>
+      <Response>Did you mean <a href="#" class="Syn_Link">what is Syn Bot?</a></Response>
+    </Model>
+
+    <!--Download Siml Bot-->
+    <Model>
+      <Pattern>DOWNLOAD SYN BOT</Pattern>
+      <Response>To download SIML Bot click on the link "Download SIML Bot" on our website <a href="http://simlbot.com" target="_blank">SimlBot.com</a></Response>
+    </Model>
+
+    <!--Nuget SIML Bot-->
+    <Model>
+      <Pattern>{SYN BOT NUGET}</Pattern>
+      <Response>
+        <a href="https://www.nuget.org/packages/SynBot/" target="_blank">Click Here</a>
+      </Response>
+    </Model>
+
+    <Model>
+      <Pattern>HOW CAN I UPDATE SYN BOT</Pattern>
+      <Response>Syn Bot is deployed only via Nuget and if you use Nuget in Visual Studio you will automatically receive the new version.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>IS SYN BOT FREE</Pattern>
+      <Response>Syn Bot can be used in your .Net Framework projects for free. Visit our <a href="https://www.nuget.org/packages/SynBot/" target="_blank">Nuget Page</a> to download Syn Bot to your .Net Project.</Response>
+    </Model>
+
+  </Concept>
+</Siml>
