@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Type="public" Name="General Questions">
+
     <Model>
       <Pattern>CREATOR OF [PRODUCT]</Pattern>
       <Response>
@@ -92,7 +93,7 @@
 
     <Model>
       <Pattern>{STORE}</Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">Where is syn store?</a></Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">Where is syn store?</a></Response>
     </Model>
 
     <Model>
@@ -107,7 +108,7 @@
 
     <Model>
       <Pattern>WHERE ARE YOU LOCATED</Pattern>
-      <Response>Our main team is located in Bangalore, India.</Response>
+      <Response>Our main team is located in <Bot Get="Location" /></Response>
     </Model>
 
     <Model>
@@ -136,7 +137,7 @@
 
     <Model>
       <Pattern>{JOIN FORUM}</Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">I want to join the Forum?</a></Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">I want to join the Forum?</a></Response>
     </Model>
 
     <Model>
@@ -149,7 +150,7 @@
 
     <Model>
       <Pattern>{FAQ}</Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">Where is the FAQ</a>?</Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">Where is the FAQ</a>?</Response>
     </Model>
 
   </Concept>

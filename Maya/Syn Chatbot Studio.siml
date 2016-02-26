@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Name="Syn Chatbot Studio" Type="Public" Repeat="True">
+
     <Model>
       <Pattern>WHAT IS SYN CHATBOT STUDIO</Pattern>
       <Response>Chatbot Studio is the official IDE for SIML development. It comes with dozens of great features and can be downloaded for Free from <a href="http://www.simlbot.com" target="_blank">SIML Website</a></Response>
@@ -8,7 +9,7 @@
 
     <Model>
       <Pattern>{CHATBOT STUDIO}</Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">What is Syn Chatbot Studio?</a></Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">What is Syn Chatbot Studio?</a></Response>
     </Model>
 
     <Model>

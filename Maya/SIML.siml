@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Name="SIML" Type="Public" Repeat="True">
+
     <Model>
       <Pattern>
         <Item>TELL ME ABOUT SIML</Item>
@@ -18,7 +19,7 @@
 
     <Model>
       <Pattern>{SIML}</Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">What is SIML?</a></Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">What is SIML?</a></Response>
     </Model>
 
     <Model>
@@ -34,7 +35,7 @@
         <Item>{SIML FREE}</Item>
         <Item>{SIML COMMERCIAL}</Item>
       </Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">Is SIML Free?</a></Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">Is SIML Free?</a></Response>
     </Model>
 
     <Model>

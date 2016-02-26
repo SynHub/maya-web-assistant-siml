@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Type="public" Name="Syn Virtual Assistant">
+
     <Model>
       <Pattern>
         <Item>{SYN VIRTUAL ASSISTANT}</Item>
@@ -50,7 +51,7 @@
       <Pattern>{EXTENDED LICENSE}</Pattern>
       <Response>
         <Label>dym.extended.license</Label>
-            Did you mean...<li><a href="#" class="Syn_Link">Extended License for Syn Virtual Assistant</a></li></Response>
+            Did you mean...<li><a href="#" class="Chat_Link">Extended License for Syn Virtual Assistant</a></li></Response>
       <Model>
         <Pattern>[YES]</Pattern>
         <Response>
@@ -200,7 +201,7 @@
 
     <Model>
       <Pattern>{SYN MAC}</Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">Is there Syn Virtual Assistant for Mac?</a></Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">Is there Syn Virtual Assistant for Mac?</a></Response>
     </Model>
 
     <Model>
@@ -218,7 +219,7 @@
 
     <Model>
       <Pattern>{SYN PACKAGE}</Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">How to create a Syn Package?</a></Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">How to create a Syn Package?</a></Response>
     </Model>
 
     <Model>
@@ -258,7 +259,7 @@
         <Item>{CREATE AVATARS}</Item>
         <Item>{CREATING AVATARS}</Item>
       </Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">How to create an avatar for Syn Virtual Assistant?</a></Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">How to create an avatar for Syn Virtual Assistant?</a></Response>
     </Model>
 
     <Model>
@@ -275,7 +276,7 @@
         <Item>{SWATCH}</Item>
         <Item>{SWATCHES}</Item>
       </Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">SYNTAX FOR A SWATCH</a>?</Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">SYNTAX FOR A SWATCH</a>?</Response>
     </Model>
 
     <Model>

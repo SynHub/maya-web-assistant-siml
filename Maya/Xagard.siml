@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="Xagard">
+
+    <Model>
+      <Pattern>{SYN WEB ASSISTANT}</Pattern>
+      <Response>Syn Web Assistant is now called XAGARD. Please <a href="http://xagard.com">Click Here</a> for more information.</Response>
+    </Model>
+
+    <!--What is XAGARD-->
+    <Model>
+      <Pattern>
+        <Item>WHAT IS XAGARD</Item>
+        <Item>I AM INTERESTED ON XAGARD</Item>
+      </Pattern>
+      <Response>XAGARD is a Fully Managed online web assistant service. It's a service that has to be enabled on your website. For more information on feature and pricing. <a href="http://xagard.com/plans.aspx">Click Here</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>{XAGARD}</Pattern>
+      <Response>Did you mean <a href="#" class="Chat_Link">What is XAGARD?</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>Did you mean what is XAGARD</Previous>
+      <Response>Please visit <a href="http://xagard.com">XAGARD</a> for more details.</Response>
+    </Model>
+
+    <!--Cost of XAGARD-->
+    <Model>
+      <Pattern>
+        <Item>{COST XAGARD}</Item>
+        <Item>{XAGARD COST}</Item>
+        <Item>{PRICING XAGARD}</Item>
+        <Item>{PRICE XAGARD}</Item>
+      </Pattern>
+      <Response>Cost and pricing for XAGARD depends on your website. To know more <a href="http://xagard.com/plans.aspx">Click Here</a></Response>
+    </Model>
+
+    <!--Download XAGARD-->
+    <Model>
+      <Pattern>{DOWNLOAD XAGARD}</Pattern>
+      <Response>XAGARD Service is hosted on Syn Bot Server. You can have one for your website by logging in to your <a href="http://xagard.com/signup.aspx">XAGARD Dashboard.</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>HOW MUCH DO YOU COST</Item>
+        <Item>WHAT IS YOUR COST</Item>
+        <Item>WHAT WILL IT TAKE TO HAVE YOU ON MY WEBSITE</Item>
+        <Item>ARE YOU FREE</Item>
+      </Pattern>
+      <Response>
+        I am available on a monthly subscription basis. Please <a href="http://xagard.com">Click Here</a> for more details.
+      </Response>
+    </Model>
+
+    <Model>
+      <Pattern>{COST YOU}</Pattern>
+      <Response>Did you mean <a href="#" class="Chat_Link">How much do you cost?</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>DO YOU RUN * APACHE SERVER</Pattern>
+      <Response>At the moment I do not run on an Apache Server. The NuGet package <a href="https://www.nuget.org/packages/SynChat/">Syn Automated Live Chat</a> allows you to install me for free in your IIS server.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{APACHE SERVER}</Pattern>
+      <Response>Did you mean <a href="#" class="Chat_Link">Do you run on an Apache Server</a>?</Response>
+    </Model>
+
+  </Concept>
+</Siml>

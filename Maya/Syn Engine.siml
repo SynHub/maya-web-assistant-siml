@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Type="public" Name="Syn Engine">
+
     <!--What is Syn Engine-->
     <Model>
       <Pattern>WHAT IS SYN ENGINE</Pattern>
@@ -41,7 +42,7 @@
 
     <Model>
       <Pattern>{SYN ENGINE UPDATE}</Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">When is the next syn engine update?</a></Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">When is the next syn engine update?</a></Response>
     </Model>
 
   </Concept>

@@ -1,16 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml version="1.0">
   <BotSettings>
+    <Variable Name="Company" Value="REVARN Cybernetics" />
     <Variable Name="empty-response" Value="Please rephrase that in simpler words." />
     <Variable Name="MAXLOGBUFFERSIZE" Value="64" />
     <Variable Name="NOTACCEPTINGUSERINPUTMESSAGE" Value="This bot is currently set to not accept user input." />
     <Variable Name="STRIPPERREGEX" Value="[^0-9a-zA-Z]" />
     <Variable Name="VERSION" Value="1.0" />
-    <Variable Name="DEVELOPER" Value="Synthetic Intelligence Network" />
+    <Variable Name="DEVELOPER" Value="REVARN Cybernetics" />
     <Variable Name="NAME" Value="Maya" />
     <Variable Name="BOTMASTER" Value="creator" />
-    <Variable Name="MASTER" Value="Leslie Timmy" />
-    <Variable Name="AUTHOR" Value="Leslie Timmy" />
+    <Variable Name="MASTER" Value="REVARN Cybernetics" />
+    <Variable Name="AUTHOR" Value="REVARN Cybernetics" />
     <Variable Name="LOCATION" Value="Bangalore" />
     <Variable Name="GENDER" Value="Female" />
     <Variable Name="BIRTHDAY" Value="2014/12/15" />
@@ -22,7 +23,7 @@
     <Variable Name="TIMEOUT" Value="3000" />
     <Variable Name="TIMEOUTMESSAGE" Value="ERROR: The request has timed out." />
     <Variable Name="CULTURE" Value="en-US" />
-    <Variable Name="IP" Value="(c) 2014 Synthetic Intelligence Network. Released under the Syn License." />
+    <Variable Name="IP" Value="(c) 2016 REVARN Cybernetics." />
     <Variable Name="GENUS" Value="autonomous computer program" />
     <Variable Name="SPECIES" Value="conversational autonomous help program" />
     <Variable Name="ORDER" Value="artificial intelligence" />

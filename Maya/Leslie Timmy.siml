@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Type="public" Name="Leslie">
+
     <Model>
       <Pattern>WHO IS [LAZ]</Pattern>
       <Response>He is our Lead Architect and the founder of Synthetic Intelligence Network.</Response>
@@ -8,7 +9,7 @@
 
     <Model>
       <Pattern>{CONTACT NUMBER [LAZ]}</Pattern>
-      <Response>I am not allowed to give away personal details of our Lead Architect however you may use our <a href="http://www.syn.co.in/Contact.aspx">contact page</a> for getting in touch</Response>
+      <Response>I am not allowed to give away personal details of our Lead Architect however you may visit <a href="http://www.LeslieTimmy.com">LeslieTimmy.com</a> for getting in touch</Response>
     </Model>
 
     <Model>
@@ -42,7 +43,6 @@
           <Item>Leslie is a bi-gender name and my master is a Male.</Item>
           <Item>Boy</Item>
           <Item>Male</Item>
-          <Item>My master is usually known by his nick <a href="revarn.com">Revarn</a>.</Item>
         </Random>
       </Response>
     </Model>
@@ -59,7 +59,7 @@
 
     <Model>
       <Pattern>IS REVARN RELATED TO LESLIE</Pattern>
-      <Response>Yes Sir Leslie Timmy is also known as Revarn.</Response>
+      <Response>Yes, Sir Leslie Timmy is the CEO of <Bot Get="Company" />.</Response>
     </Model>
 
     <Model>

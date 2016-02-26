@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Type="public" Name="Siml Bot">
+
     <!--What is SIML Bot-->
     <Model>
       <Pattern>
@@ -17,7 +18,7 @@
         <Item>{SYN BOT}</Item>
         <Item>{SIML BOT}</Item>
       </Pattern>
-      <Response>Did you mean <a href="#" class="Syn_Link">what is Syn Bot?</a></Response>
+      <Response>Did you mean <a href="#" class="Chat_Link">what is Syn Bot?</a></Response>
     </Model>
 
     <!--Download Siml Bot-->

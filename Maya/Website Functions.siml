@@ -1,13 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
   <Concept Name="Website Functions" Type="Public" Repeat="True">
+
     <Model>
-      <Pattern>SEARCH GOOGLE FOR *</Pattern>
+      <Pattern>
+        <Item>GIVE DISASTER REPORT</Item>
+        <Item>WHAT IS ON NEWS</Item>
+      </Pattern>
+      <Response>I am not Syn Virtual Assistant :(</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>SEARCH GOOGLE FOR *</Item>
+        <Item>SEARCH ON GOOGLE ABOUT *</Item>
+      </Pattern>
       <Response>
-        <Define Key="{term}">
-          <Match />
-        </Define>
-        <a href="https://www.google.com/search?q={term}" target="_blank">Click Here</a> for Results.
+        <a href="https://www.google.com/search?q={Bind Match}" target="_blank">Click Here</a> for Results.
       </Response>
     </Model>
 
@@ -23,10 +32,7 @@
     <Model>
       <Pattern>OPEN (GOOGLE|FACEBOOK|TWITTER|YOUTUBE|GMAIL)</Pattern>
       <Response>
-        <Define Key="{site}">
-          <Match />
-        </Define>
-        <a href="www.{site}.com" target="_blank">Click Here</a> to open <Match />.
+        <a href="www.{Bind Match}.com" target="_blank">Click Here</a> to open <Match />.
       </Response>
     </Model>
 
@@ -36,8 +42,11 @@
         <Item>PLAY MUSIC</Item>
         <Item>PLAY A SONG</Item>
         <Item>PLAY SONG</Item>
+        <Item>PLAY RADIO</Item>
       </Pattern>
-      <Response>Visit <a href="http://www.stereomood.com/">Stereomood.com</a> and select your mood.</Response>
+      <Response>
+        <iframe width="100%" height="90" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/214853633&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </Response>
     </Model>
 
     <Model>
