@@ -153,5 +153,17 @@
       <Response>Did you mean <a href="#" class="Chat_Link">Where is the FAQ</a>?</Response>
     </Model>
 
+    <!--WHAT DO I DO WITH THE INVOICE-->
+    <Model>
+      <Pattern>WHAT * WITH * INVOICE</Pattern>
+      <Response>We do not store credit or debit card information in our servers. Instead we follow an invoice system where we send our customers an invoice for any particular product they wish to purchase.</Response>
+    </Model>
+
+    <!--how long does it take to get the invoice-->
+    <Model>
+      <Pattern>HOW LONG * INVOICE</Pattern>
+      <Response>On working days we can process an invoice within 4 hours. However, it may take upto 24 hours for an invoice to be processed.</Response>
+    </Model>
+
   </Concept>
 </Siml>

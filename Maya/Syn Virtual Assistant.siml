@@ -2,6 +2,18 @@
 <Siml>
   <Concept Type="public" Name="Syn Virtual Assistant">
 
+    <!--When is the Syn Virtual Assistant 8.5 going to be released-->
+    <!--when will the next version of maya be out?-->
+    <!--When will the next version of SVA be released-->
+    <Model>
+      <Pattern>
+        <Item>WHEN * SYN VIRTUAL ASSISTANT *</Item>
+        <Item>WHEN * NEXT VERSION OF MAYA *</Item>
+      </Pattern>
+      <Response>A new version of Syn Virtual Assistant is under development. Version 8.5 will be released in a couple of months.</Response>
+    </Model>
+
+    <!--Tell me everything about sva-->
     <Model>
       <Pattern>
         <Item>{SYN VIRTUAL ASSISTANT}</Item>
@@ -9,20 +21,22 @@
       </Pattern>
       <Response>
         <Label>what.sva</Label>
-            Syn Virtual Assistant is an AI assistant designed to help user interact with their computer using voice. Would you like to download Syn Virtual Assistant ?
-            </Response>
-      <Model>
-        <Pattern>[YES]</Pattern>
-        <Response>
-          <Goto>Download Syn Virtual Assistant</Goto>
-        </Response>
-      </Model>
+        Syn Virtual Assistant is an AI assistant designed to help user interact with their computer using voice. Would you like to download Syn Virtual Assistant ?
+      </Response>
+    </Model>
 
-      <Model>
-        <Pattern>[NO]</Pattern>
-        <Response>:(</Response>
-      </Model>
+    <Model>
+      <Pattern>[YES]</Pattern>
+      <Previous>what.sva</Previous>
+      <Response>
+        <Goto>Download Syn Virtual Assistant</Goto>
+      </Response>
+    </Model>
 
+    <Model>
+      <Pattern>[NO]</Pattern>
+      <Previous>what.sva</Previous>
+      <Response>:(</Response>
     </Model>
 
     <Model>
@@ -31,7 +45,7 @@
         <Item>{DOWNLOAD SYN VIRTUAL ASSISTANT}</Item>
       </Pattern>
       <Response>
-            To download Syn Virtual Assistant <a href="http://www.syn.co.in/Syn-Virtual-Assistant.aspx">Click Here.</a></Response>
+        To download Syn Virtual Assistant <a href="http://www.syn.co.in/Syn-Virtual-Assistant.aspx">Click Here.</a></Response>
     </Model>
 
     <Model>
@@ -44,7 +58,7 @@
         <Item>WHAT IS THE COST OF AN EXTENDED LICENSE FOR SYN VIRTUAL ASSISTANT</Item>
       </Pattern>
       <Response>
-            Extended License is for non-commercial use and unlocks more features.<a href="http://www.syn.co.in/Contribute.aspx">Click Here to know more.</a></Response>
+        Extended License is for non-commercial use and unlocks more features.<a href="http://www.syn.co.in/Contribute.aspx">Click Here to know more.</a></Response>
     </Model>
 
     <Model>
@@ -107,7 +121,7 @@
 
     <Model>
       <Pattern>{AIML}</Pattern>
-      <Response>Syn Virtual Assistant uses Syn Engine for Natural Language Processing. Currently AIML is supported but in the future Syn Virtual Assistant will use SIML. SIML stands for Synthetic Intelligence Markup Language and is a next generation chatbot architecture.</Response>
+      <Response>Syn Virtual Assistant uses Syn Engine for Natural Language Processing. Currently AIML is supported but in the future Syn Virtual Assistant will use SIML. SIML stands for Synthetic Intelligence Markup Language and is the next generation Digital Assistant development language.</Response>
     </Model>
 
     <!--Guile 3D Denise-->
@@ -286,7 +300,13 @@
 
     <Model>
       <Pattern>IS SYN VIRTUAL ASSISTANT FREE</Pattern>
-      <Response>Yes! Syn Virtual Assistant is free.</Response>
+      <Response>Yes! Syn Virtual Assistant is and will always be free.</Response>
+    </Model>
+
+    <!--is it possible to change the voice of the virtual assistant-->
+    <Model>
+      <Pattern>* CHANGE * VOICE * VIRTUAL ASSISTANT</Pattern>
+      <Response>If you are referring to Syn Virtual Assistant then you can change the speech synthesis settings using the Settings Panel.</Response>
     </Model>
 
   </Concept>
