@@ -5,10 +5,12 @@
     <!--When is the Syn Virtual Assistant 8.5 going to be released-->
     <!--when will the next version of maya be out?-->
     <!--When will the next version of SVA be released-->
+    <!--when will the new version be ready-->
     <Model>
       <Pattern>
         <Item>WHEN * SYN VIRTUAL ASSISTANT *</Item>
         <Item>WHEN * NEXT VERSION OF MAYA *</Item>
+        <Item>WHEN * NEW VERSION *</Item>
       </Pattern>
       <Response>A new version of Syn Virtual Assistant is under development. Version 8.5 will be released in a couple of months.</Response>
     </Model>

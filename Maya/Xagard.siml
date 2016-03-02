@@ -63,12 +63,19 @@
 
     <Model>
       <Pattern>DO YOU RUN * APACHE SERVER</Pattern>
-      <Response>At the moment I do not run on an Apache Server. The NuGet package <a href="https://www.nuget.org/packages/SynChat/">Syn Automated Live Chat</a> allows you to install me for free in your IIS server.</Response>
+      <Response>At the moment I do not run on an Apache Server. The NuGet package <a href="https://www.nuget.org/packages/SynChat/">Syn Automated Live Chat</a> allows you to install me for free in IIS based ASP.NET Websites.</Response>
     </Model>
 
     <Model>
       <Pattern>{APACHE SERVER}</Pattern>
       <Response>Did you mean <a href="#" class="Chat_Link">Do you run on an Apache Server</a>?</Response>
+    </Model>
+
+    <!--I WOULD LIKE TO TRY YOU OUT-->
+    <!--I want to try you out-->
+    <Model>
+      <Pattern>I * TRY YOU $</Pattern>
+      <Response>To sign up for a Basic Trial please <a href="http://xagard.com/SignUp.aspx">Click Here</a>.</Response>
     </Model>
 
   </Concept>
