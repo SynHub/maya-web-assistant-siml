@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Siml>
-  <Concept Name="General" Type="Public" Repeat="True">
+<Siml xmlns:Think="http://syn.co.in/2014/siml#think">
+  <Concept Name="General">
+
+
 
     <Model>
-      <Pattern>
-        <Bot Get="name" />
-      </Pattern>
+      <Pattern>[BOT:NAME]</Pattern>
       <Response>Yes <User Get="name" />?</Response>
     </Model>
 
@@ -52,31 +52,6 @@
         </Response>
       </Model>
 
-    </Model>
-
-    <Model>
-      <Pattern>
-        <Item>{CONTACT NUMBER}</Item>
-        <Item>{CALL CENTER NUMBER}</Item>
-        <Item>{PHONE NUMBER}</Item>
-      </Pattern>
-      <Response>Are you trying to fetch our Contact Number ?</Response>
-      <Model>
-        <Pattern>[YES]</Pattern>
-        <Response>
-          <Goto>What is your contact number</Goto>
-        </Response>
-      </Model>
-
-    </Model>
-
-    <Model>
-      <Pattern>
-        <Item>CONTACT NUMBER</Item>
-        <Item>WHERE CAN I CONTACT SYN</Item>
-        <Item>HOW CAN I CONTACT YOU</Item>
-      </Pattern>
-      <Response>You may call our Lead Architect on the number +91 8867798201. Optionally you may have to prefix 0 to the number depending on your location and service provider.</Response>
     </Model>
 
     <Model>
@@ -227,14 +202,6 @@
         <Item>{PLUGINS}</Item>
       </Pattern>
       <Response>Did you mean <a href="#" class="Chat_Link">Where can I find plugins?</a></Response>
-    </Model>
-
-    <Model>
-      <Pattern>
-        <Item>HOW CAN I *</Item>
-        <Item>I HAVE A PROBLEM</Item>
-      </Pattern>
-      <Response>You may refer our <a href="http://forum.syn.co.in/" target="_blank">Forum</a> for any assistance.</Response>
     </Model>
 
     <Model>

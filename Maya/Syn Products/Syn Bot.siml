@@ -42,7 +42,7 @@
 
     <Model>
       <Pattern>IS SYN BOT FREE</Pattern>
-      <Response>Syn Bot can be used in your .Net Framework projects for free. Visit our <a href="https://www.nuget.org/packages/SynBot/" target="_blank">Nuget Page</a> to download Syn Bot to your .Net Project.</Response>
+      <Response>Syn Bot can be used in your .Net Framework projects for free. Visit our <a href="https://www.nuget.org/packages/Syn.Bot/" target="_blank">Nuget Page</a> to download Syn Bot to your .Net Project.</Response>
     </Model>
 
   </Concept>

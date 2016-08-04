@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Set Name="prog-ai">programmable artificial intelligence, programmable ai</Set>
+  <Concept Name="Programmable AI">
+
+    <Model>
+      <Pattern>WHAT $ [PROG-AI] $</Pattern>
+      <Example>
+        <Item>What is the meaning of Programmable AI?</Item>
+        <Item>What is Programmable Artificial Intelligence?</Item>
+      </Example>
+      <Response>XAGARD Knowledge Base is based on SIML. Your knowledge base can be programmed using SIML to answer queries intelligently. More information on SIML can be found in their <a href="http://wiki.syn.co.in">Wiki Page</a>.</Response>
+    </Model>
+
+  </Concept>
+</Siml>

@@ -2,6 +2,7 @@
 <Siml>
   <!--Note: All global pattern reductions should be stored in this file within the "Pattern Reductions" public Concept.-->
   <Concept Name="Pattern Reductions" Type="public">
+
     <Model>
       <Pattern>
         <Item>I WANT TO DOWNLOAD *</Item>
@@ -49,16 +50,6 @@
       </Response>
     </Model>
 
-    <Model>
-      <Pattern>
-        <Item>WHAT IS YOUR CONTACT *</Item>
-        <Item>GIVE ME YOUR CONTACT *</Item>
-        <Item>WHERE CAN I CONTACT YOU</Item>
-      </Pattern>
-      <Response>
-        <Goto>contact details</Goto>
-      </Response>
-    </Model>
 
     <Model>
       <Pattern>[YES]</Pattern>

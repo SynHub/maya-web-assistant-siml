@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Features">
+
+    <Model>
+      <Pattern>
+        <Item>YOUR FEATURES $</Item>
+        <Item>THE FEATURES $</Item>
+        <Item>WHAT $ FEATURES $</Item>
+        <Item>{FEATURE-}</Item>
+      </Pattern>
+      <Example>
+        <Item>What are your features?</Item>
+        <Item>What are the features?</Item>
+      </Example>
+      <Response>
+        <If User="url" Value="http://xagard.com/Features.aspx">
+          <Goto>onpage Features</Goto>
+        </If>
+        <Else>XAGARD offers a lot of features. To find out more visit our <a href="http://xagard.com/Features.aspx">Features Page</a>.</Else>
+      </Response>
+    </Model>
+
+    <!--Does it work on mobiles?-->
+    <!--Does it work on different screen size?-->
+    <Model>
+      <Pattern>
+        <Item>DOES IT WORK ON MOBILES</Item>
+        <Item>$ DIFFERENT SCREEN SIZE $</Item>
+        <Item>DO $ MOBILE</Item>
+        <Item>DO $ TABLETS</Item>
+      </Pattern>
+      <Example>
+        <Item>Do you work on mobile?</Item>
+        <Item>Do you work on Tablets?</Item>
+      </Example>
+      <Response>XAGARD Virtual Agents work on all major browsers.</Response>
+    </Model>
+
+    <!--Do you run on Apache Server-->
+    <Model>
+      <Pattern>DO YOU RUN * APACHE SERVER</Pattern>
+      <Response>At the moment I do not run on an Apache Server. The NuGet package <a href="https://www.nuget.org/packages/SynChat/">Syn Automated Live Chat</a> allows you to install me for free in IIS based ASP.NET Websites.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{APACHE SERVER}</Pattern>
+      <Response>Did you mean <a href="#" class="Chat_Link">Do you run on an Apache Server</a>?</Response>
+    </Model>
+
+    <!--Can I use xagard on my wordpress site?-->
+    <Model>
+      <Pattern>{XAGARD WORDPRESS}</Pattern>
+      <Response>To learn more about integration xagard on your website please visit our <a href="http://xagard.com/help">help center</a>.</Response>
+    </Model>
+
+    <!--Does xagard work on wordpress?-->
+    <Model>
+      <Pattern>{WORDPRESS}</Pattern>
+      <Response>Did you mean <a href="#" class="Chat_Link">Can I use XAGARD on wordpress?</a></Response>
+    </Model>
+
+    <!--Does Xagard work on different screen sizes?-->
+    <!--Does it fit on all screen sizes?-->
+    <Model>
+      <Pattern>
+        <Item>$ SCREEN SIZES $</Item>
+      </Pattern>
+      <Response>Indeed, it does work on different screen sizes and devices.</Response>
+    </Model>
+
+    <!--How Agent remembers users?-->
+    <Model>
+      <Pattern>$ AGENT REMEMBER $</Pattern>
+      <Response>XAGARD Agents remember the topic of conversation using contextual session memories.</Response>
+    </Model>
+
+  </Concept>
+</Siml>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Set Name="Cost">cost, pricing , price , prices, money</Set>
+  <Set Name="Discount">discount, discounts, promotion, promotions, offer, offers, special pricing</Set>
+  <Set Name="Buy">buy, purchase</Set>
+  <Set Name="small">small, tiny, early stage, smaller</Set>
+  <Set Name="high">high, higher, more, a lot</Set>
+  <Concept Name="Cost and pricing">
+    <!--Cost of XAGARD-->
+    <Model>
+      <Pattern>{[COST]}</Pattern>
+      <Item>HOW MUCH DO YOU COST</Item>
+      <Item>WHAT IS YOUR COST</Item>
+      <Item>WHAT WILL IT TAKE TO HAVE YOU ON MY WEBSITE</Item>
+      <Item>ARE YOU FREE</Item>
+      <Item>WHAT $ COST $</Item>
+      <Example>
+        <Item>What is the cost for managed subscription?</Item>
+        <Item>What is the pricing for monthly subscription?</Item>
+      </Example>
+      <Keywords>tariff, cost, costing, pricing, price</Keywords>
+      <Response>Cost and pricing for XAGARD depends on your business requirements. To know more <a href="http://xagard.com/plans.aspx">Click Here</a></Response>
+    </Model>
+    <!--Cost for small startups-->
+    <Model>
+      <Pattern>
+        <Item>{[COST] [SMALL] [COMPANY]}</Item>
+        <Item>{[DISCOUNT] [SMALL] [COMPANY]}</Item>
+        <Item>{SUBSCRIPTION- [COST] [SMALL] [COMPANY]}</Item>
+      </Pattern>
+      <Example>What would be the subscription cost for a small company?</Example>
+      <Response>We do offer lower rates for small companies. Please <a href="http://xagard.com/Contact.aspx">Click here</a> to request a special quote for your business requirements.</Response>
+    </Model>
+    <!--Your prices are higher-->
+    <Model>
+      <Pattern>{[COST] [HIGH]}</Pattern>
+      <Example>Your prices are high.</Example>
+      <Response>Our pricing is marginal compared other similar service providers as we have invested heavily to reduce operation costs.</Response>
+    </Model>
+    <!--Discounts-->
+    <Model>
+      <Pattern>{[DISCOUNT]} </Pattern>
+      <Example>
+        <Item>Do you have any discounts or promotions?</Item>
+        <Item>Is there an offer?</Item>
+      </Example>
+      <Response>Currently there are no discounts offered on any of our subscription types. For a special request I encourage you to email us at support@xagard.com
+      </Response>
+    </Model>
+    <!--Buy-->
+    <Model>
+      <Pattern>
+        <Item>{[BUY]}</Item>
+        <Item>$ [BUY] SUBSCRIPTION- $</Item>
+        <Item>{COMMERCIAL LICENSE}</Item>
+        <Item>{BUSINESS LICENSE}</Item>
+        <Item>WHERE CAN I BUY $ SUBSCRIPTION</Item>
+        <Item>WHERE CAN I PURCHASE $ SUBSCRIPTION</Item>
+      </Pattern>
+      <Example>
+        <Item>Where can I purchase a subscription?</Item>
+        <Item>How to buy a subscription?</Item>
+      </Example>
+      <Response>To purchase monthly subscription you should first sign in to your XAGARD <a href="http://xagard.com/SignIn.aspx">Dashboard.</a> and then request an Invoice.</Response>
+    </Model>
+  </Concept>
+</Siml>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Set Name="Help-Center">help center, help page, help centre</Set>
+  <Set Name="Tutorial">tutorial, tutorials, user guide, user manual, documentation, documentations, wiki</Set>
+  <Concept Name="Documentation">
+    <!--Documentation/Wiki-->
+    <!--<Item>$ DOWNLOAD THE MANUAL</Item>
+    <Item>DO YOU HAVE A MANUAL $</Item>
+    <Item>WHERE $ TUTORIAL $ SIML</Item>-->
+    <Model>
+      <Pattern>{[TUTORIAL]}</Pattern>
+      <Example>
+        <Item>Where can I find tutorial on SIML?</Item>
+        <Item>Do you have a user manual?</Item>
+        <Item>Where is the Wiki?</Item>
+      </Example>
+      <Keywords>tutorial, tutorials, documentation, documentations, user guide, users guide, user manual, users manual, wiki</Keywords>
+      <Response>All SIML related tutorials can be found on Syn Wiki Center. <a href="http://wiki.syn.co.in/" target="_blank">Click Here</a>. If you looking for XAGARD related documents please visit <a href="http://xagard.com/help">Help Center</a>.</Response>
+    </Model>
+    <!--Where can I find tutorial on XAGARD-->
+    <!--Where is the help center-->
+    <Model>
+      <Pattern>{[HELP-CENTER]}</Pattern>
+      <Example>
+        <Item>Where can I find more information?</Item>
+        <Item>Where is the Help Center?</Item>
+        <Item>Where is the Tutorial Center?</Item>
+      </Example>
+      <Keywords>help center, help centre, documentation, help page</Keywords>
+      <Response>You can find a lot of information in our <a href="http://xagard.com/help">Help Center</a>.</Response>
+    </Model>
+  </Concept>
+</Siml>

@@ -46,6 +46,9 @@
   <Filter Value="Plugins">
     <Word>plug-ins</Word>
   </Filter>
+  <Filter Value="">
+    <Text>'</Text>
+  </Filter>
   <!--YES-->
   <Filter Value="Yes">
     <Word>Yea</Word>

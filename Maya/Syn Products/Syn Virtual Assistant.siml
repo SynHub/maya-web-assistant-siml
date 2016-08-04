@@ -11,7 +11,11 @@
         <Item>WHEN * SYN VIRTUAL ASSISTANT *</Item>
         <Item>WHEN * NEXT VERSION OF MAYA *</Item>
         <Item>WHEN * NEW VERSION *</Item>
+        <Item>HAVE * RELEASED SYN VIRTUAL ASSISTANT</Item>
       </Pattern>
+      <Example>
+        <Item>When will the new Syn Virtual Assistant will be released?</Item>
+      </Example>
       <Response>A new version of Syn Virtual Assistant is under development. Version 8.5 will be released in a couple of months.</Response>
     </Model>
 

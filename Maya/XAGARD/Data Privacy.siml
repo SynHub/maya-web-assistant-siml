@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Set Name="data-privacy">data privacy, data protection, data protect, data protected</Set>
+  <Concept Name="Data Privacy">
+
+    <Model>
+      <Pattern>$ [DATA-PRIVACY] $</Pattern>
+      <Example>
+        <Item>What is your Data Privacy Policy?</Item>
+        <Item>Do you have a Data Protection assurance?</Item>
+        <Item>Is my Knowledge Base Data protected?</Item>
+      </Example>
+      <Response>Our data privacy policy ensures that your knowledge base and its content are kept safe and is not opened or read by any human.</Response>
+    </Model>
+
+  </Concept>
+</Siml>

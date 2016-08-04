@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Payment">
+
+    <!--Do you accept payment in Indian Rupees?-->
+    <Model>
+      <Pattern>
+        <Item>DO YOU * PAYMENTS $</Item>
+        <Item>$ PAYMENTS THROUGH $</Item>
+        <Item>$ DEBIT CARD $</Item>
+        <Item>$ CREDIT CARD $</Item>
+        <Item>HOW $ PAYMENTS</Item>
+      </Pattern>
+      <Example>
+        <Item>Do you accept Debit Card payments?</Item>
+        <Item>Do you accept Credit Card payments?</Item>
+        <Item>How do I make payments?</Item>
+      </Example>
+      <Response>You can payments in US Dollars via PayPal. We do not store credit or debit card details.</Response>
+    </Model>
+
+  </Concept>
+</Siml>

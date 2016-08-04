@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Type="public" Name="General Questions">
+
+    <Model>
+      <Pattern>CREATOR OF [PRODUCT]</Pattern>
+      <Response>
+        <Match /> has been created by <Bot Get="Developer" />.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>#WHOFOUNDER</Pattern>
+      <Response>XAGARD has been founded by Leslie Timmy.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{PRIVACY POLICY}</Pattern>
+      <Response>Our privacy policy is transparent and easy to comprehend as stated in our Features page.</Response>
+    </Model>
+
+
+    <Model>
+      <Pattern>
+        <Item>WHERE IS THE STORE</Item>
+        <Item>WHERE IS SYN STORE</Item>
+      </Pattern>
+      <Response>Get everything to customize SVA in <a href="http://syn.co.in/Store.aspx">Syn Store</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>{STORE}</Pattern>
+      <Response>Did you mean <a href="#" class="Chat_Link">Where is syn store?</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>WHAT IS THIS WEBSITE</Pattern>
+      <Response>This is the official XAGARD Automated Live Chat website.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>WHERE ARE YOU LOCATED</Pattern>
+      <Response>Our main team is located in <Bot Get="Location" /></Response>
+    </Model>
+
+    <Model>
+      <Pattern>WHAT ARE YOUR PAYMENT OPTIONS</Pattern>
+      <Response>At the moment we accept payments through PayPal.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>DO YOU ACCEPT PAYPAL</Pattern>
+      <Response>Yes we do. Actually we only accept payments through PayPal.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>DO YOU HAVE A MOBILE SITE</Pattern>
+      <Response>This website is a responsive website so it should adjust automatically on mobile devices. However, you may close my window by clicking on close button on the top right corner to free up some space.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>I WANT TO JOIN THE FORUM</Item>
+        <Item>I WANT TO JOIN SYN FORUM</Item>
+      </Pattern>
+      <Response>
+        <a href="http://forum.syn.co.in/ucp.php?mode=register">Click Here</a> to register a new Syn Forum Account.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{JOIN FORUM}</Pattern>
+      <Response>Did you mean <a href="#" class="Chat_Link">I want to join the Forum?</a></Response>
+    </Model>
+
+    <Model>
+      <Pattern>
+        <Item>WHERE IS THE FAQ</Item>
+        <Item>IS THERE A FAQ</Item>
+      </Pattern>
+      <Response>You may visit <a href="http://xagard.com/help">Help Center</a> if you are looking for a knowledge base.</Response>
+    </Model>
+
+    <Model>
+      <Pattern>{FAQ}</Pattern>
+      <Response>Did you mean <a href="#" class="Chat_Link">Where is the FAQ</a>?</Response>
+    </Model>
+
+  </Concept>
+</Siml>

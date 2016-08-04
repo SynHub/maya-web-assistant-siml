@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="API Access">
+
+    <!--Can I call the API Using JavaScript-->
+    <Model>
+      <Pattern>$ API $</Pattern>
+      <Example>
+        <Item>Where is the API documentation?</Item>
+        <Item>I need more API access details.</Item>
+      </Example>
+      <Response>All API related questions have been answered in our <a href="http://xagard.com/help">Help Center</a>.</Response>
+    </Model>
+
+  </Concept>
+</Siml>

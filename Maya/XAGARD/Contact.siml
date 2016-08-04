@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Set Name="contact-number">contact number, call center number, telephone number, phone number, office number, office contact number</Set>
+  <Concept Name="Contact">
+    <!--Contact Number-->
+    <Model>
+      <Pattern>
+        <Item>CONTACT NUMBER</Item>
+        <Item>{[CONTACT-NUMBER]}</Item>
+        <Item>WHAT IS YOUR TELEPHONE NUMBER</Item>
+      </Pattern>
+      <Example>
+        <Item>What is your contact number?</Item>
+        <Item>Do you have a phone number?</Item>
+        <Item>what is your telephone number?</Item>
+        <Item>How can I contact you?</Item>
+      </Example>
+      <Keywords>contact number, telephone number, office number, talk, phone number, office contact number</Keywords>
+      <Response>You may call us on +91 903 567 9777.</Response>
+    </Model>
+    <!--Contact Tech Support-->
+    <Model>
+      <Pattern>
+        <Item>CONTACT DETAILS</Item>
+        <Item>WHERE CAN I CONTACT YOU</Item>
+        <Item>WHERE CAN I CONTACT SYN</Item>
+        <Item>HOW CAN I CONTACT YOU</Item>
+        <Item>IS THERE TECH SUPPORT I MAY CONTACT</Item>
+        <Item>MAY I PLEASE BE DIRECTED TO TECH SUPPORT</Item>
+        <Item>HOW MAY I CONTACT YOU</Item>
+        <Item>WHAT IS YOUR CONTACT *</Item>
+        <Item>GIVE ME YOUR CONTACT *</Item>
+        <Item>WHERE $ CONTACT $</Item>
+        <Item>HOW $ CONTACT $</Item>
+        <Item>{CONTACT HUMAN}</Item>
+        <Item>{TALK HUMAN}</Item>
+        <Item>{WHERE CONTACT}</Item>
+        <Item>{TECH SUPPORT}</Item>
+        <Item>{CUSTOMER SUPPORT}</Item>
+      </Pattern>
+      <Example>
+        <Item>How can I contact you?</Item>
+        <Item>How can I get in touch with you guys?</Item>
+        <Item>How can I send you a message?</Item>
+        <Item>Where is the contact page?</Item>
+        <Item>How can I contact customer support?</Item>
+        <Item>How can I contact customer service?</Item>
+      </Example>
+      <Response>
+        <a href="http://xagard.com/Contact.aspx">Click here</a> to send us a message.</Response>
+    </Model>
+    <!--Support email address-->
+    <Model>
+      <Pattern>
+        <Item>$ CUSTOMER SUPPORT EMAIL ADDRESS $</Item>
+        <Item>DO $ EMAIL ADDRESS</Item>
+        <Item>{EMAIL ADDRESS}</Item>
+        <Item>{EMAIL ID}</Item>
+      </Pattern>
+      <Example>
+        <Item>What is your Customer support email address?</Item>
+        <Item>What is your Technical Support email address?</Item>
+        <Item>Do you have an email address?</Item>
+        <Item>What is your email address?</Item>
+      </Example>
+      <Keywords>email address, email id</Keywords>
+      <Response>Our support email address is support@xagard.com. <a href="http://xagard.com/Contact.aspx">Click here</a> if you wish to send us a message.</Response>
+    </Model>
+    <Model>
+      <Pattern>
+        <Item>$ [COMPANY] $ ADDRESS $</Item>
+        <Item>$ ADDRESS $ [COMPANY]</Item>
+      </Pattern>
+      <Example>
+        <Item>What is your company's contact address?</Item>
+        <Item>What is the mailing address of your company?</Item>
+        <Item>What is the Bangalore address of your company?</Item>
+      </Example>
+      <Keywords>company address, company location, company mailing address</Keywords>
+      <Response>You can find all of our company details on our Company's official website. That is <a href="http://revarn.com">REVARN Cybernetics</a></Response>
+    </Model>
+  </Concept>
+</Siml>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Invoice">
+
+    <!--WHAT DO I DO WITH THE INVOICE-->
+    <Model>
+      <Pattern>
+        <Item>WHAT % INVOICE</Item>
+        <Item>WHY % INVOICE</Item>
+      </Pattern>
+      <Example>
+        <Item>What to do with an Invoice?</Item>
+        <Item>Why do you use Invoice?</Item>
+        <Item>What is an Invoice?</Item>
+      </Example>
+      <Response>We do not store credit or debit card information in our servers. Instead we follow an invoice system where we send our customers an email invoice for any particular product they wish to purchase.</Response>
+    </Model>
+
+    <!--how long does it take to get the invoice-->
+    <Model>
+      <Pattern>
+        <Item>HOW LONG $ INVOICE</Item>
+        <Item>WHEN $ INVOICE $</Item>
+      </Pattern>
+      <Example>
+        <Item>How long does it take to process an invoice?</Item>
+        <Item>When will my invoice be processed?</Item>
+      </Example>
+      <Response>On working days we can process an invoice within 4 hours. However, it can take upto 24 hours for an invoice to be processed.</Response>
+    </Model>
+
+  </Concept>
+</Siml>

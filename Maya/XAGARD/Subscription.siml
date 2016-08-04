@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Subscription">
+
+    <!--What all types of subscriptions are available-->
+    <!--What are the subscription types?-->
+    <Model>
+      <Pattern>
+        <Item>WHAT * SUBSCRIPTION- $</Item>
+        <Item>$ SUBSCRIPTION- $</Item>
+        <Item>$ SUBSCRIPTION- TYPES $</Item>
+      </Pattern>
+      <Example>
+        <Item>What all types of subscriptions are available?</Item>
+        <Item>What are the available subscription types?</Item>
+      </Example>
+      <Response>There are 4 types of monthly subscriptions. Basic, Standard, Enterprise and Ultimate. You can find more details on the <a href="http://xagard.com/Plans.aspx">Plans Page</a>.</Response>
+    </Model>
+
+    <!--What is a managed subscription-->
+    <Model>
+      <Pattern>
+        <Item>WHAT * MANAGED SUBSCRIPTION- $</Item>
+      </Pattern>
+      <Example>
+        <Item>what is a managed subscription?</Item>
+      </Example>
+      <Response>In Managed subscriptions one our expert developer will write the knowledge-base for you.</Response>
+    </Model>
+
+    <!--Is there an annual subscription-->
+    <Model>
+      <Pattern>$ ANNUAL SUBSCRIPTION- $</Pattern>
+      <Response>At the moment only monthly subscriptions are allowed. </Response>
+    </Model>
+
+  </Concept>
+</Siml>

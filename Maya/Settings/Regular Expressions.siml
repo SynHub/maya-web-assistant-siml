@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml>
-  <Regex Name="SynEngine" Pattern="\b(syn\.engine)\b" />
+  <Regex Name="SynEngine" Pattern="\b(syn\.engine)\b" Strict="True" />
 </Siml>

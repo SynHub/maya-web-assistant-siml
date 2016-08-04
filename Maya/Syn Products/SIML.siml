@@ -27,7 +27,7 @@
         <Item>IS SIML FREE</Item>
         <Item>IS SIML OPEN SOURCE</Item>
       </Pattern>
-      <Response>Yes it is. You can use all SIML files for free in both Commercial and Non-Commercial applications as SIML is licensed under Creative Commons Attribution License.</Response>
+      <Response>Yes it is. You can use all SIML files for free in both Commercial and Non-Commercial applications as SIML files distributed by Synthetic Intelligence Network is licensed under Apache License, Version 2.0.</Response>
     </Model>
 
     <Model>
@@ -41,6 +41,16 @@
     <Model>
       <Pattern>DOWNLOAD SIML</Pattern>
       <Response>To download SIML related resources please check our <a href="https://github.com/Synthetic-Intelligence-Network">GitHub Repository</a></Response>
+    </Model>
+
+    <!--I don't know SIML-->
+    <!--Can you help me write SIML-->
+    <Model>
+      <Pattern>
+        <Item>I DO NOT KNOW SIML</Item>
+        <Item>$ HELP $ SIML</Item>
+      </Pattern>
+      <Response>You can learn a lot about SIML and its benefits by visiting <a href="http://wiki.syn.co.in">SIML Wiki Center</a>.</Response>
     </Model>
 
   </Concept>
