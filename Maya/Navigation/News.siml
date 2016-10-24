@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="News">
+    <Model>
+      <Pattern>#SLASH NEWS</Pattern>
+      <Response xml:space="preserve">
+1. Syn Virtual Assistant prototype 8.5.6 is out
+2. Syn Bot version 1.2.5 is available with support for Sense, Examples, Suggestion, Search Engine interface and much more.
+3. Syn Virtual Assistant plugins are now available as open source projects
+      </Response>
+    </Model>
+    
+  </Concept>
+</Siml>

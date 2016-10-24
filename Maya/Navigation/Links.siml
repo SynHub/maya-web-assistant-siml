@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Links">
+    <Model>
+      <Pattern>#GITHUB</Pattern>
+      <Response>
+        <a href="http://github.syn.co.in">GitHub Respository</a>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>#SLASH LINKS</Pattern>
+      <Response xml:space="preserve">
+Here are the list of all important links
+<a href="http://www.syn.co.in">Synthetic Intelligence Network</a>
+<a href="http://www.revarn.com">REVARN Cybernetics LLP</a>
+<a href="http://www.vaframework.com">Syn Virtual Assistant Framework</a>
+<a href="http://www.simlbot.com">SIML and Syn Bot Studio</a>
+<a href="http://forum.syn.co.in">Syn Developer Forum</a>
+<a href="http://developer.syn.co.in">Syn Developer Network</a>
+<a href="http://github.syn.co.in">Syn GitHub Page</a>
+      </Response>
+    </Model>
+    
+  </Concept>
+</Siml>

@@ -51,26 +51,82 @@
     <Item>nope</Item>
     <Item>nop</Item>
   </Set>
-  <Set Name="PRODUCT">
-    <Item>Syn Virtual Assistant</Item>
-    <Item>Syn Engine</Item>
-    <Item>Syn Web Assistant</Item>
-    <Item>XAGARD</Item>
-    <Item>SIML</Item>
-    <Item>Syn Bot</Item>
-  </Set>
   <Set Name="Laz">
     <Item>Leslie Timmy</Item>
-    <Item>Revarn</Item>
     <Item>Laz</Item>
     <Item>Leslie</Item>
   </Set>
   <Set Name="Company">
+    <Item>Syn</Item>
+    <Item>Syn Network</Item>
+    <Item>Synthetic Intelligence Network</Item>
+    <Item>Revarn</Item>
+    <Item>Revarn Cybernetics</Item>
+    <Item>Revarn Cybernetics LLP</Item>
+  </Set>
+  <Set Name="SIML">
+    <Item>SIML</Item>
+    <Item>Synthetic Intelligence Markup Language</Item>
+  </Set>
+  <Set Name="Syn-Bot">
+    <Item>Syn Bot</Item>
+    <Item>SIML Bot</Item>
+    <Item>Syn Bot Framework</Item>
+    <Item>Syn Bot Library</Item>
+    <Item>Syn Bot Class Library</Item>
+  </Set>
+  <Set Name="Syn-Bot-Studio">
+    <Item>Syn Bot Studio</Item>
+    <Item>Syn Chatbot Studio</Item>
+    <Item>Bot Studio</Item>
+    <Item>Chatbot Studio</Item>
+  </Set>
+  <Set Name="Syn-Virtual-Assistant">
+    <Item>Virtual Assistant</Item>
+    <Item>Syn Virtual Assistant</Item>
+  </Set>
+  <Set Name="Syn-Speech">
+    <Item>Syn Speech</Item>
+    <Item>Syn Speech Engine</Item>
+  </Set>
+  <Set Name="Problem">
+    <Item>Problem</Item>
+    <Item>Issue</Item>
+    <Item>Trouble</Item>
+    <Item>Not Working</Item>
+    <Item>Error</Item>
+  </Set>
+  <Set Name="Forum">
+    <Item>Forum</Item>
+    <Item>Syn Forum</Item>
+    <Item>Developer Forum</Item>
+    <Item>Syn Developer Forum</Item>
+  </Set>
+  <Set Name="Business-License">
+    <Item>Commercial License</Item>
+    <Item>Commercial Business License</Item>
+    <Item>Business License</Item>
+  </Set>
+  <Set Name="Contact-Number">
+    <Item>contact number</Item>
+    <Item>contact information</Item>
+    <Item>call center number</Item>
+    <Item>telephone number</Item>
+    <Item>phone number</Item>
+    <Item>office number</Item>
+    <Item>office contact number</Item>
+  </Set>
+  <Set Name="Business">
     <Item>company</Item>
     <Item>companys</Item>
     <Item>companies</Item>
     <Item>business</Item>
     <Item>business center</Item>
     <Item>startup</Item>
+  </Set>
+  <Set Name="Email">
+    <Item>Email</Item>
+    <Item>Email ID</Item>
+    <Item>Email address</Item>
   </Set>
 </Siml>

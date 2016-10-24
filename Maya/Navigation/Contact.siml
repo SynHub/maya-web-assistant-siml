@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Contact">
+    <Model>
+      <Pattern>#CONTACT-NUMBER</Pattern>
+      <Response>You may also call us on +91 903 567 9777.</Response>
+    </Model>
+    
+    <!--Contact Tech Support-->
+    <Model>
+      <Pattern>
+        <Item>#SLASH CONTACT</Item>
+        <Item>#CONTACT-INFO</Item>
+        <Item>{[CONTACT-NUMBER]}</Item>
+        <Item>{CONTACT INFORMATION}</Item>
+        <Item>{CONTACT HUMAN}</Item>
+        <Item>{TALK HUMAN}</Item>
+        <Item>{WHERE CONTACT}</Item>
+        <Item>{TECH SUPPORT}</Item>
+        <Item>{CUSTOMER SUPPORT}</Item>
+        <Item>CONTACT DETAILS</Item>
+        <Item>WHERE CAN I CONTACT YOU</Item>
+        <Item>WHERE CAN I CONTACT SYN</Item>
+        <Item>HOW CAN I CONTACT YOU</Item>
+        <Item>IS THERE TECH SUPPORT I MAY CONTACT</Item>
+        <Item>MAY I PLEASE BE DIRECTED TO TECH SUPPORT</Item>
+        <Item>HOW MAY I CONTACT YOU</Item>
+        <Item>WHAT IS YOUR CONTACT *</Item>
+        <Item>GIVE ME YOUR CONTACT *</Item>
+        <Item>WHERE $ CONTACT $</Item>
+        <Item>HOW $ CONTACT $</Item>
+        <Item>CONTACT NUMBER</Item>
+        <Item>WHAT IS YOUR TELEPHONE NUMBER</Item>
+      </Pattern>
+      <Example>
+        <Item>What is your contact information?</Item>
+        <Item>How can I contact you?</Item>
+        <Item>How can I get in touch with you guys?</Item>
+        <Item>How can I send you a message?</Item>
+        <Item>Where is the contact page?</Item>
+        <Item>How can I contact customer support?</Item>
+        <Item>How can I contact customer service?</Item>
+        <Item>What is your contact number?</Item>
+        <Item>Do you have a phone number?</Item>
+        <Item>what is your telephone number?</Item>
+        <Item>How can I contact you?</Item>
+      </Example>
+      <Response Hint="Synthetic Intelligence Network|REVARN Cybernetics LLP" Label=":contact-team">
+        Which support team would you like to contact?
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>SYNTHETIC INTELLIGENCE NETWORK</Pattern>
+      <Previous>:contact-team</Previous>
+      <Response>
+        <a href="http://contact.syn.co.in/">Click Here</a> to send Synthetic Intelligence Network a message. <Goto>#Contact-Number</Goto></Response>
+    </Model>
+    
+    <Model>
+      <Pattern>REVARN CYBERNETICS LLP</Pattern>
+      <Previous>:contact-team</Previous>
+      <Response>
+        <a href="http://Revarn.com/">Click Here</a> to contact REVARN Cybernetics LLP. Please scroll down the website page to find the Message form. <Goto>#Contact-Number</Goto></Response>
+    </Model>
+    
+    <!--Support email address-->
+    <Model>
+      <Pattern>
+        <Item>{WHAT YOUR [EMAIL]}</Item>
+        <Item>{[EMAIL]}</Item>
+        <Item>$ CUSTOMER SUPPORT EMAIL ADDRESS $</Item>
+        <Item>DO $ EMAIL ADDRESS</Item>
+        <Item></Item>
+      </Pattern>
+      <Example>
+        <Item>What is your Customer support email address?</Item>
+        <Item>What is your Technical Support email address?</Item>
+        <Item>Do you have an email address?</Item>
+        <Item>What is your email address?</Item>
+      </Example>
+      <Keywords>email address, email id</Keywords>
+      <Response>You can contact Synthetic Intelligence Network at hello@syn.co.in and to contact our parent company please use the email hello@revarn.com</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>{[BUSINESS] ADDRESS}</Item>
+        <Item>{ADDRESS [BUSINESS]}</Item>
+        <Item>{WHAT YOUR ADDRESS}</Item>
+        <Item>{WHERE YOU LOCATED}</Item>
+        <Item>{WHERE YOU BASED}</Item>
+      </Pattern>
+      <Example>
+        <Item>What is your company's contact address?</Item>
+        <Item>What is the mailing address of your company?</Item>
+        <Item>What is the Bangalore address of your company?</Item>
+      </Example>
+      <Response>You can find all of our company details on our Company's official website. That is <a href="http://revarn.com">REVARN Cybernetics LLP</a>.</Response>
+    </Model>
+    
+  </Concept>
+</Siml>

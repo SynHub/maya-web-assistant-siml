@@ -6,6 +6,7 @@
     <Text>?</Text>
     <Text>;</Text>
   </Splitter>
+  <Filter Text="/" Value="#Slash " />
   <Filter Value="Assistant">
     <Word>assistent</Word>
   </Filter>
@@ -24,20 +25,8 @@
   <Filter Value="Syn Web Assistant">
     <Word>swa</Word>
   </Filter>
-  <Filter Value="SIML">
-    <Word>Synthetic Intelligence Markup Language</Word>
-  </Filter>
   <Filter Value="Chatbot Studio">
     <Word>chatbotstudio</Word>
-  </Filter>
-  <Filter Value="Syn Bot">
-    <Word>siml bot</Word>
-    <Word>simlbot</Word>
-    <Word>SynBot</Word>
-  </Filter>
-  <Filter Value="Leslie Timmy">
-    <Word>revarn</Word>
-    <Word>Laz</Word>
   </Filter>
   <Filter Value="Plugin">
     <Word>plug-in</Word>
@@ -87,7 +76,6 @@
   </Filter>
   <!--SPACE-->
   <Filter Value=" ">
-    <Text>/</Text>
     <Text>(</Text>
     <Text>)</Text>
     <Text>`</Text>

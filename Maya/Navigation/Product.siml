@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Product Command">
+    <Model>
+      <Pattern>PRODUCT</Pattern>
+      <Previous>:browse-command</Previous>
+      <Response Label=":browse-command" Hint="SIML|Syn Bot|Syn Bot Studio|Syn Virtual Assistant|Syn Speech">
+         Which product are we talking about? Please specify a product name.
+      </Response>
+    </Model>
+    
+  </Concept>
+</Siml>

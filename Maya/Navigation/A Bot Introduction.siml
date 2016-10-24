@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Introduction">
+    
+    <Model>
+      <Pattern>
+        <Item>#SLASH START</Item>
+        <Item>#SLASH COMMANDS</Item>
+        <Item>*</Item>
+      </Pattern>
+      <Response xml:space="preserve" Label=":start-command">
+<Random Get="Greet" /> <User Get="Name" />! I am Maya, I am here to help you find answers to FAQs.
+
+You can control me by sending these commands:
+
+/browse - Browse though the knowledge base
+/contact - Find contact information
+/links - List of all important links
+/samples - Links to sample projects
+/news - Latest update from Synthetic Intelligence Network
+/siml - Synthetic Intelligence Markup Language inquiry
+/synbot - Syn Bot Framework inquiry
+/synbotstudio - Syn Bot Studio inquiry
+/synvirtualassistant - Syn Virtual Assistant Framework inquiry
+/synspeech - Syn Speech Recognition engine inquiry
+
+If you any time find yourself lost use /start to get this list again.
+
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>#SLASH BROWSE</Pattern>
+      <Response Label=":browse-command">
+         How can I help you? 
+        <Hint>Product|Company|Community</Hint></Response>
+    </Model>
+    
+  </Concept>
+</Siml>

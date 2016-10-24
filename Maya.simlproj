@@ -7,5 +7,15 @@
   <author>Synthetic Intelligence Network</author>
   <description>This is a project to demostrate Syn Web Assistant on Syn Website</description>
   <date>1:59:06 PM, Monday, August 25, 2014</date>
-  <notes></notes>
+  <notes>start - gets the list of all available commands
+browse - Browse though the knowledge base
+contact - Find contact information
+links - List of all important links
+samples - Links to sample projects
+news - Latest update from Synthetic Intelligence Network
+siml - Synthetic Intelligence Markup Language inquiry
+synbot - Syn Bot Framework inquiry
+synbotstudio - Syn Bot Studio inquiry
+synvirtualassistant - Syn Virtual Assistant Framework inquiry
+synspeech - Syn Speech Recognition engine inquiry</notes>
 </simlproject>

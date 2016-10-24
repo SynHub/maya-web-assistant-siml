@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Syn Speech">
+    <!--/SynSpeech-->
+    <Model>
+      <Pattern>
+        <Item>[SYN-SPEECH]</Item>
+        <Item>#SLASH SYNSPEECH</Item>
+      </Pattern>
+      <Response Label=":syn-speech-command" Hint="Download|Tutorials|Sample Projects">Syn Speech is a flexible speaker independent continuous speech recognition engine for Mono and .Net framework.</Response>
+    </Model>
+    
+    <!--/SynSpeech Option-->
+    <Model>
+      <Pattern>DOWNLOAD</Pattern>
+      <Previous>:syn-speech-command</Previous>
+      <Response>Syn Speech is deployed as a NuGet Package. Use the command <a href="https://www.nuget.org/packages/Syn.Speech/">PM&gt; Install-Package Syn.Speech</a> in Package Manager Console.</Response>
+    </Model>
+    
+    <!--/SynSpeech Option-->
+    <Model>
+      <Pattern>TUTORIALS</Pattern>
+      <Previous>:syn-speech-command</Previous>
+      <Response>
+        <a href="http://developer.syn.co.in/tutorial/speech/index.html">Click here</a> get started with Syn Speech Engine.</Response>
+    </Model>
+    
+    <!--/SynSpeech Option-->
+    <Model>
+      <Pattern>SAMPLE PROJECTS</Pattern>
+      <Previous>:syn-speech-command</Previous>
+      <Response>
+        <a href="https://github.com/SynHub/syn-speech-demo">Click Here</a> to download the Syn Speech Demo project.</Response>
+    </Model>
+    
+    <!--Patterns-->
+    <Model>
+      <Pattern>{HOW SYN SPEECH}</Pattern>
+      <Response>
+        Visit <a href="http://developer.syn.co.in/tutorial/speech/index.html">Syn Speech Tutorials</a> page for documentations on Syn Speech Recognition engine.</Response>
+    </Model>
+    
+  </Concept>
+</Siml>

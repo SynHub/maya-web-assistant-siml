@@ -1,137 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Siml version="1.0">
-  <BotSettings Target="Suggestion">
-    <Variable Name="Gate" Value="5" />
-    <Variable Name="Ignore">
-      <Value>a</Value>
-      <Value>about</Value>
-      <Value>all</Value>
-      <Value>and</Value>
-      <Value>are</Value>
-      <Value>as</Value>
-      <Value>at</Value>
-      <Value>back</Value>
-      <Value>be</Value>
-      <Value>because</Value>
-      <Value>been</Value>
-      <Value>but</Value>
-      <Value>can</Value>
-      <!--<Value>can't</Value>-->
-      <Value>can not</Value>
-      <Value>come</Value>
-      <Value>could</Value>
-      <Value>did</Value>
-      <!--<Value>didn't</Value>-->
-      <Value>did not</Value>
-      <Value>do</Value>
-      <!--<Value>don't</Value>-->
-      <Value>do not</Value>
-      <Value>for</Value>
-      <Value>from</Value>
-      <Value>get</Value>
-      <Value>go</Value>
-      <Value>going</Value>
-      <Value>good</Value>
-      <Value>got</Value>
-      <Value>had</Value>
-      <Value>have</Value>
-      <Value>he</Value>
-      <Value>her</Value>
-      <Value>here</Value>
-      <!--<Value>he's</Value>-->
-      <Value>he is</Value>
-      <Value>hey</Value>
-      <Value>him</Value>
-      <Value>his</Value>
-      <Value>how</Value>
-      <Value>I</Value>
-      <Value>if</Value>
-      <!--<Value>I'll</Value>-->
-      <Value>I will</Value>
-      <!--<Value>I'm</Value>-->
-      <Value>I am</Value>
-      <Value>in</Value>
-      <Value>is</Value>
-      <Value>it</Value>
-      <!--<Value>it's</Value>-->
-      <Value>it is</Value>
-      <Value>just</Value>
-      <Value>know</Value>
-      <Value>like</Value>
-      <Value>look</Value>
-      <Value>me</Value>
-      <Value>mean</Value>
-      <Value>my</Value>
-      <Value>no</Value>
-      <Value>not</Value>
-      <Value>now</Value>
-      <Value>of</Value>
-      <Value>oh</Value>
-      <Value>OK</Value>
-      <Value>okay</Value>
-      <Value>on</Value>
-      <Value>one</Value>
-      <Value>or</Value>
-      <Value>out</Value>
-      <Value>really</Value>
-      <Value>right</Value>
-      <Value>say</Value>
-      <Value>see</Value>
-      <Value>she</Value>
-      <Value>so</Value>
-      <Value>some</Value>
-      <Value>something</Value>
-      <Value>tell</Value>
-      <Value>that</Value>
-      <!--<Value>that's</Value>-->
-      <Value>that is</Value>
-      <Value>the</Value>
-      <Value>then</Value>
-      <Value>there</Value>
-      <Value>they</Value>
-      <Value>think</Value>
-      <Value>this</Value>
-      <Value>time</Value>
-      <Value>to</Value>
-      <Value>up</Value>
-      <Value>want</Value>
-      <Value>was</Value>
-      <Value>we</Value>
-      <Value>well</Value>
-      <Value>were</Value>
-      <Value>what</Value>
-      <Value>when</Value>
-      <Value>who</Value>
-      <Value>why</Value>
-      <Value>will</Value>
-      <Value>with</Value>
-      <Value>would</Value>
-      <Value>yeah</Value>
-      <Value>yes</Value>
-      <Value>you</Value>
-      <Value>your</Value>
-      <!--<Value>you're</Value>-->
-      <Value>you are</Value>
-    </Variable>
-    <Variable Name="Strip">
-      <Value>?</Value>
-      <Value>.</Value>
-      <Value>!</Value>
-    </Variable>
-  </BotSettings>
   <BotSettings>
+    <Variable Name="Director" Value="Leslie Timmy" />
     <Variable Name="Company" Value="REVARN Cybernetics" />
+    <Variable Name="LOCATION" Value="Bangalore" />
     <Variable Name="empty-response" Value="Please rephrase that in simpler words." />
     <Variable Name="DEVELOPER" Value="REVARN Cybernetics" />
-    <Variable Name="MAXLOGBUFFERSIZE" Value="64" />
-    <Variable Name="NOTACCEPTINGUSERINPUTMESSAGE" Value="This bot is currently set to not accept user input." />
-    <Variable Name="STRIPPERREGEX" Value="[^0-9a-zA-Z]" />
     <Variable Name="VERSION" Value="1.0" />
     <Variable Name="NAME" Value="Maya" />
     <Variable Name="BOTMASTER" Value="creator" />
     <Variable Name="MASTER" Value="REVARN Cybernetics" />
     <Variable Name="AUTHOR" Value="REVARN Cybernetics" />
-    <Variable Name="LOCATION" Value="Bangalore" />
     <Variable Name="GENDER" Value="Female" />
     <Variable Name="BIRTHDAY" Value="2014/12/15" />
     <Variable Name="BIRTHPLACE" Value="Bangalore" />

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Company">
+    <Model>
+      <Pattern>COMPANY</Pattern>
+      <Previous>:browse-command</Previous>
+      <Response Label=":company-inquiry" Hint="Contact Information|Social Networks">
+        Our company name is REVARN Cybernetics LLP and is an Artificial Intelligence company established in Bangalore. Synthetic Intelligence Network is a brand of REVARN Cybernetics LLP.
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>CONTACT INFORMATION</Pattern>
+      <Previous>:company-inquiry</Previous>
+      <Response>
+        <Goto>#Contact-Info</Goto>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>SOCIAL NETWORKS</Pattern>
+      <Previous>:company-inquiry</Previous>
+      <Response xml:space="preserve">
+To receive updates and annoucements from Synthetic Intelligence Networks you can follow us on any of the following Social Networks.
+
+<a href="https://www.facebook.com/SynNetwork">Syn on Facebook</a>
+<a href="https://twitter.com/SynNet">Syn on Twitter</a>
+<a href="https://plus.google.com/u/0/b/100295236138564917216/">Syn on Google+</a>
+<a href="https://github.com/SynHub">Syn on GitHub</a>
+
+      </Response>
+    </Model>
+    
+  </Concept>
+</Siml>

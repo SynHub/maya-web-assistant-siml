@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="SIML">
+    <!--/Browse Option-->
+    <Model>
+      <Pattern>
+        <Item>[SIML]</Item>
+        <Item>#SLASH SIML</Item>
+      </Pattern>
+      <Response Label=":siml-command" Hint="Tutorials|Sample Projects">
+        <Goto>What is SIML</Goto>
+      </Response>
+    </Model>
+    
+    <!--/SIML Option-->
+    <Model>
+      <Pattern>TUTORIALS</Pattern>
+      <Previous>:siml-command</Previous>
+      <Response>
+        <a href="http://developer.syn.co.in/tutorial/siml/index.html">Click here</a> to read the SIML specification.</Response>
+    </Model>
+    
+    <!--/SIML Option-->
+    <Model>
+      <Pattern>SAMPLE PROJECTS</Pattern>
+      <Previous>:siml-command</Previous>
+      <Response Label=":siml-sample" Hint="Full SIML English Knowledge Base|Maya Web Assistant Knowledge Base">We do have pre-built SIML Knowledge Base Files for you to download. Please select an option.</Response>
+    </Model>
+    
+    <!--Sample Project/Option-->
+    <Model>
+      <Pattern>FULL SIML ENGLISH KNOWLEDGE BASE</Pattern>
+      <Previous>:siml-sample</Previous>
+      <Response>
+        <a href="https://github.com/SynHub/siml-english-base">Click Here</a> to visit the GitHub page for download the entire SIML English Knowledge Base.</Response>
+    </Model>
+    
+    <!--Sample Project/Option-->
+    <Model>
+      <Pattern>MAYA WEB ASSISTANT KNOWLEDGE BASE</Pattern>
+      <Previous>:siml-sample</Previous>
+      <Response>You can refer my knowledge-base by visiting the <a href="https://github.com/SynHub/maya-web-assistant-siml">GitHub repository</a> link of my Knowledge-Base.</Response>
+    </Model>
+    
+    <!--Patterns-->
+    <Model>
+      <Pattern>
+        <Item>WHAT IS SIML</Item>
+        <Item>{TELL ABOUT [SIML]}</Item>
+        <Item>{WHAT [SIML]}</Item>
+      </Pattern>
+      <Example>
+        <Item>Tell me about SIML.</Item>
+        <Item>What is SIML?</Item>
+      </Example>
+      <Response>
+        <Random>
+          <Item>SIML stands for Synthetic Intelligence Markup Language and is a next generation Bot architecture. SIML is not just a specification but is an implementation and proof of concept that complex and intelligent Chatbots can be created ( with ease ) if proper Libraries and tools are provided. Visit <a href="http://www.simlbot.com">SIML Website</a> for more details.</Item>
+          <Item>SIML is the next generation "open" chatbot architecture designed for both beginner and expert Bot developers. Visit <a href="http://www.simlbot.com">SIML Website</a> for more details.</Item>
+          <Item>SIML or Synthetic Intelligence Markup Language is the next generation Bot Language developed by Synthetic Intelligence Network to push the state of the art a step further. Visit <a href="http://www.simlbot.com">SIML Website</a> for more details.</Item>
+          <Item>SIML or Synthetic Intelligence Markup Language is the state-of-the-art Bot development language and comes with tons of unparalleled features. Visit <a href="http://www.simlbot.com">SIML Website</a> for more details.</Item>
+        </Random>
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>{DOWNLOAD [SIML]}</Pattern>
+      <Example>Where to download SIML files?</Example>
+      <Response>To download SIML related resources please check our <a href="https://github.com/SynHub">GitHub Repository</a></Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>{DO NOT KNOW [SIML]}</Item>
+        <Item>{HELP [SIML]}</Item>
+      </Pattern>
+      <Example>
+        <Item>I do not know SIML.</Item>
+        <Item>Help me with SIML.</Item>
+      </Example>
+      <Response>You can learn a lot about SIML by visiting <a href="http://developer.syn.co.in">Syn Developer Network</a>.</Response>
+    </Model>
+    
+  </Concept>
+</Siml>

@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Syn Virtual Assistant">
+    <!--/SynVirtualAssistant-->
+    <Model>
+      <Pattern>
+        <Item>#SLASH SYNVIRTUALASSISTANT</Item>
+        <Item>[SYN-VIRTUAL-ASSISTANT]</Item>
+      </Pattern>
+      <Response Label=":syn-virtual-assistant-command" Hint="Download|Tutorials|Release Notes">
+        <Goto>What is Syn Virtual Assistant</Goto>
+      </Response>
+    </Model>
+    
+    <!--/SynVirtualAssistant Option-->
+    <Model>
+      <Pattern>DOWNLOAD</Pattern>
+      <Previous>:syn-virtual-assistant-command</Previous>
+      <Response>To download Syn Virtual Assistant <a href="http://www.vaframework.com">Click Here.</a></Response>
+    </Model>
+    
+    <!--/SynVirtualAssistant Option-->
+    <Model>
+      <Pattern>TUTORIALS</Pattern>
+      <Previous>:syn-virtual-assistant-command</Previous>
+      <Response>
+        <a href="http://developer.syn.co.in/tutorial/va/index.html">Click here</a> get started with Syn Virtual Assistant Framework.</Response>
+    </Model>
+    
+    <!--/SynVirtualAssistant Option-->
+    <Model>
+      <Pattern>RELEASE NOTES</Pattern>
+      <Previous>:syn-virtual-assistant-command</Previous>
+      <Response>
+        <a href="http://developer.syn.co.in/note/assistant/release-notes.html">Click here</a> to read Syn Virtual Assistant release notes.</Response>
+    </Model>
+    
+    <!--Patterns-->
+    <Model>
+      <Pattern>
+        <Item>WHAT IS [SYN-VIRTUAL-ASSISTANT]</Item>
+        <Item>{WHAT [SYN-VIRTUAL-ASSISTANT]}</Item>
+        <Item>{TELL ABOUT [SYN-VIRTUAL-ASSISTANT]}</Item>
+      </Pattern>
+      <Example>
+        <Item>What is [Syn-Virtual-Assistant]?</Item>
+        <Item>Tell me about [Syn-Virtual-Assistant].</Item>
+      </Example>
+      <Response>Syn Virtual Assistant is a platform for building intelligent Virtual Assistants designed to help user interact with their computer using voice commands.</Response>
+    </Model>
+    
+    <!--When is the Syn Virtual Assistant 8.5 going to be released-->
+    <!--when will the next version of maya be out?-->
+    <!--When will the next version of SVA be released-->
+    <!--when will the new version be ready-->
+    <Model>
+      <Pattern>
+        <Item>WHEN * SYN VIRTUAL ASSISTANT *</Item>
+        <Item>WHEN * NEXT VERSION OF MAYA *</Item>
+        <Item>WHEN * NEW VERSION *</Item>
+        <Item>HAVE * RELEASED SYN VIRTUAL ASSISTANT</Item>
+      </Pattern>
+      <Example>
+        <Item>When will [Syn-Virtual-Assistant] be released?</Item>
+      </Example>
+      <Response>An update to the current version of Syn Virtual Assistant is under development. The release date is unconfirmed.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>{DOWNLOAD [SYN-VIRTUAL-ASSISTANT]}</Item>
+      </Pattern>
+      <Example>Download Link for [Syn-Virtual-Assistant].</Example>
+      <Response></Response>
+    </Model>
+    
+    <Model>
+      <Pattern>{EXTENDED LICENSE}</Pattern>
+      <Response>We no longer distribute Extended Licenses.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>{SYSTEM REQUIREMENT- [SYN-VIRTUAL-ASSISTANT]}</Item>
+        <Item>{[SYN-VIRTUAL-ASSISTANT] SYSTEM REQUIREMENT-}</Item>
+      </Pattern>
+      <Example>What is system requirement for [Syn-Virtual-Assisant]?</Example>
+      <Response>Syn Virtual Assistant Prototype 8.5 requires Windows 7, Windows 8 or Windows 10, 2 GB RAM, 250MB disk space, a good graphic card and a microphone with noice cancellation.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>{[SYN-VIRTUAL-ASSISTANT] AIML}</Pattern>
+      <Example>Does [Syn-Virtual-Assistant] support AIML?</Example>
+      <Response>AIML support has been retired as the current version of Syn Virtual Assistant uses SIML. SIML stands for Synthetic Intelligence Markup Language and is the next generation Digital Assistant development language.</Response>
+    </Model>
+    
+    <!--Guile 3D Denise-->
+    <Model>
+      <Pattern>
+        <Item>{DENISE}</Item>
+        <Item>{GUILE}</Item>
+      </Pattern>
+      <Response>Denise reminds me of my Granny. But I appreciate any work towards AI. My creator wishes to make AI open to the world.</Response>
+    </Model>
+    
+    <!--Jarvis-->
+    <Model>
+      <Pattern>{JARVIS}</Pattern>
+      <Response>Jarvis 3D Avatar will soon be available to all users.</Response>
+    </Model>
+    
+    <!--Syn Virtual Assistant on Linux-->
+    <Model>
+      <Pattern>
+        <Item>{[SYN-VIRTUAL-ASSISTANT] LINUX}</Item>
+        <Item>{LINUX [SYN-VIRTUAL-ASSISTANT]}</Item>
+      </Pattern>
+      <Response>We do have plans to support the Linux platform. It has been considered but no confirmed development has been announced.</Response>
+    </Model>
+    
+    <!--Syn Virtual Assistant Language-->
+    <Model>
+      <Pattern>
+        <Item>{LANGUAGE [SYN-VIRTUAL-ASSISTANT]}</Item>
+        <Item>{[SYN-VIRTUAL-ASSISTANT] LANGUAGE}</Item>
+      </Pattern>
+      <Response>Syn Virtual Assistant is available in English.</Response>
+    </Model>
+    
+    <!--Email Configuration-->
+    <Model>
+      <Pattern>
+        <Item>EMAIL CONFIGURATION</Item>
+        <Item>EMAIL ERRORS WITH SYN</Item>
+        <Item>EMAIL ERROR WITH SYN</Item>
+        <Item>HOW TO SETUP EMAIL</Item>
+        <Item>{EMAIL ERROR}</Item>
+        <Item>{EMAIL ERRORS}</Item>
+      </Pattern>
+      <Response>Are you having trouble setting up the Email service in Syn Virtual Assistant ?</Response>
+      <Model>
+        <Pattern>{[YES]}</Pattern>
+        <Response>Email setup is not an easy task at hand please make a post in our Forum and a developer will help you out.</Response>
+      </Model>
+      
+    </Model>
+    
+    <Model>
+      <Pattern>{UPDATE [SYN-VIRTUAL-ASSISTANT]}</Pattern>
+      <Response>When a new update is available Syn Virtual Assistant will automatically notify its user.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>{[SYN-VIRTUAL-ASSISTANT] WITH OUT AVATAR}</Pattern>
+      <Response>Yes you can use the dock mode in the Settings Panel.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>{SYN FRENCH}</Pattern>
+      <Response>At the moment Syn Virtual Assistant doesn't have support for French language.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>{CHANGE SKIN [SYN-VIRTUAL-ASSISTANT]}</Item>
+        <Item>{CHANGE AVATAR [SYN-VIRTUAL-ASSISTANT]}</Item>
+      </Pattern>
+      <Response>You can change the 3D avatar by selecting 3D Avatar in the Settings Panel.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>{[SYN-VIRTUAL-ASSISANT] MAC}</Item>
+        <Item>{[SYN-VIRTUAL-ASSISANT] MAC OS}</Item>
+        <Item>IS THE SYN PRODUCT AVAILABLE FOR MAC</Item>
+        <Item>IS THERE SYN VIRTUAL ASSISTANT FOR MAC</Item>
+        <Item>IS THERE SYN FOR MAC</Item>
+      </Pattern>
+      <Response>I am afraid not. Currently MAC OS is not supported.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>CAN SYN VIRTUAL ASSISTANT * INPUT REMOTELY THROUGH WEB</Pattern>
+      <Response>Please check Syn Store for a plugin that can help you achieve that.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>{SYN PACKAGE}</Item>
+        <Item>HOW TO SAVE ALL FILES AS PACKAGE</Item>
+        <Item>HOW TO CREATE A SYN PACKAGE</Item>
+      </Pattern>
+      <Response>You can start the Plugin Manager by using the command "Open Plugin Manager". Please refer <a href="http://developer.syn.co.in/tutorial/va/plugin-manager.html">Plugin Manage tutorial.</a></Response>
+    </Model>
+    
+    <Model>
+      <Pattern>SETTING UP MIC</Pattern>
+      <Response>To learn so to how you can setup mic for Syn Virtual Assistant please visit our Forum.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>HOW DO I SYNC</Pattern>
+      <Response>Syncing of files in Syn Virtual Assistant is currently not supported. This feature will be available in the next version.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>{LANGUAGE PACKAGE}</Item>
+        <Item>{LANGUAGE PACK}</Item>
+      </Pattern>
+      <Response>English is the only officially supported language. Language packs are a way to replace a "few" commands into native languages. Please visit <a href="http://store.syn.co.in">Syn Store</a> to check if a language pack is available for you.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>{CUSTOM AVATAR-}</Item>
+        <Item>{CREAT- AVATAR-}</Item>
+      </Pattern>
+      <Response>The current version of Syn Virtual Assistant doesn't support custom avatar creation.</Response>
+    </Model>
+    
+    <!--is it possible to change the voice of the virtual assistant-->
+    <Model>
+      <Pattern>
+        <Item>{CHANGE VOICE [SYN-VIRTUAL-ASSISANT]}</Item>
+        <Item>* CHANGE * VOICE * [SYN-VIRTUAL-ASSISTANT]</Item>
+      </Pattern>
+      <Response>You can change the voice of speech synthesis by selecting Speech Synthesis option in Settings Panel.</Response>
+    </Model>
+    
+  </Concept>
+</Siml>

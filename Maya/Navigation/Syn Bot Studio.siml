@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Syn Bot Studio">
+    <!--/SynBotStudio -->
+    <Model>
+      <Pattern>
+        <Item>[SYN-BOT-STUDIO]</Item>
+        <Item>#SLASH SYNBOTSTUDIO</Item>
+      </Pattern>
+      <Response Label=":syn-bot-studio-command" Hint="Download|Tutorials|Release Notes">
+        <Goto>What is Syn Bot Studio</Goto>
+      </Response>
+    </Model>
+    
+    <!--Option-->
+    <Model>
+      <Pattern>TUTORIALS</Pattern>
+      <Previous>:syn-bot-studio-command</Previous>
+      <Response>
+        <a href="http://developer.syn.co.in/tutorial/bot-studio/index.html">Click here</a> get started with Syn Bot Studio.</Response>
+    </Model>
+    
+    <!--Option-->
+    <Model>
+      <Pattern>DOWNLOAD</Pattern>
+      <Previous>:syn-bot-studio-command</Previous>
+      <Response>
+        <Goto>Download Syn Bot Studio</Goto>
+      </Response>
+    </Model>
+    
+    <!--Option-->
+    <Model>
+      <Pattern>RELEASE NOTES</Pattern>
+      <Previous>:syn-bot-studio-command</Previous>
+      <Response>
+        <a href="http://developer.syn.co.in/note/bot-studio/release-notes.html">Click here</a> to read Syn Bot Studio release notes.</Response>
+    </Model>
+    
+    <!--Patterns-->
+    <Model>
+      <Pattern>
+        <Item>{WHAT [SYN-BOT-STUDIO]}</Item>
+        <Item>WHAT IS [SYN-BOT-STUDIO]</Item>
+      </Pattern>
+      <Example>What is [Bot-Studio]?</Example>
+      <Response>Syn Bot Studio is the official IDE for SIML development. It comes with dozens of great features and can be downloaded for Free from <a href="http://www.simlbot.com" target="_blank">SIML Website</a>.</Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>DOWNLOAD [SYN-BOT-STUDIO]</Item>
+        <Item>{DOWNLOAD [SYN-BOT-STUDIO]}</Item>
+      </Pattern>
+      <Response Hint="Yes|No">To download Syn Bot Studio please visit <a href="http://www.simlbot.com">SIML Website</a>. Do you want me to provide you a direct download link?</Response>
+      <Model>
+        <Pattern>{[YES]}</Pattern>
+        <Response>Please <a href="http://www.simlbot.com/downloads/installer.zip">click here</a> to download Syn Bot Studio.</Response>
+      </Model>
+      
+      <Model>
+        <Pattern>{[NO]}</Pattern>
+        <Response>
+          <Goto>#GENERAL-NO</Goto>
+        </Response>
+      </Model>
+      
+    </Model>
+    
+  </Concept>
+</Siml>

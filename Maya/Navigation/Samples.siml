@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Samples">
+    <Model>
+      <Pattern>#SLASH SAMPLES</Pattern>
+      <Response xml:space="preserve">
+<a href="https://github.com/SynHub/siml-english-base">SIML English Knowledge-Base</a>
+<a href="https://github.com/SynHub/maya-web-assistant-siml">Maya Online Assistant Knowledge-Base</a>
+<a href="https://github.com/SynHub/natural-language-interface-to-database">Natural Language Interface to Database</a>
+<a href="https://github.com/SynHub/syn-speech-demo">Syn Speech Demo</a>
+<a href="https://github.com/SynHub/automated-live-chat-demo">Automated Live Chat Demo</a>
+      </Response>
+    </Model>
+    
+  </Concept>
+</Siml>

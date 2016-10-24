@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Siml>
+  <Concept Name="Syn Bot">
+    <!--/Browse Option-->
+    <Model>
+      <Pattern>
+        <Item>[SYN-BOT]</Item>
+        <Item>#SLASH SYNBOT</Item>
+      </Pattern>
+      <Response Label=":syn-bot-command" Hint="Tutorials|Download|Release Notes|Sample Projects">
+        <Goto>What is Syn Bot</Goto>
+      </Response>
+    </Model>
+    
+    <!--/SynBot Option-->
+    <Model>
+      <Pattern>DOWNLOAD</Pattern>
+      <Previous>:syn-bot-command</Previous>
+      <Response>Syn Bot Framework is deployed as a NuGet Package. Use the command <a href="https://www.nuget.org/packages/Syn.Bot/">PM&gt; Install-Package Syn.Bot</a> in Package Manager Console.</Response>
+    </Model>
+    
+    <!--/SynBot Option-->
+    <Model>
+      <Pattern>TUTORIALS</Pattern>
+      <Previous>:syn-bot-command</Previous>
+      <Response>
+        <a href="http://developer.syn.co.in/tutorial/bot/index.html">Click here</a> get started with Syn Bot Framework.</Response>
+    </Model>
+    
+    <!--/SynBot Option-->
+    <Model>
+      <Pattern>RELEASE NOTES</Pattern>
+      <Previous>:syn-bot-command</Previous>
+      <Response>
+        <a href="http://developer.syn.co.in/note/bot/release-notes.html">Click here</a> to read Syn Bot Framework release notes.</Response>
+    </Model>
+    
+    <!--/SynBot Option-->
+    <Model>
+      <Pattern>SAMPLE PROJECTS</Pattern>
+      <Previous>:syn-bot-command</Previous>
+      <Response Label=":syn-bot-sample" Hint="NLP Interface to Database|Automated Live Chat on Website">We have a few sample projects that use Syn Bot Framework. Please select.</Response>
+    </Model>
+    
+    <!--Sample Projects/Option-->
+    <Model>
+      <Pattern>NLP INTERFACE TO DATABASE</Pattern>
+      <Previous>:syn-bot-sample</Previous>
+      <Response>
+        <a href="https://github.com/SynHub/natural-language-interface-to-database">Click Here</a> to download the Natural Language Interface project based on SIML.</Response>
+    </Model>
+    
+    <!--Sample Projects/Option-->
+    <Model>
+      <Pattern>AUTOMATED LIVE CHAT ON WEBSITE</Pattern>
+      <Previous>:syn-bot-sample</Previous>
+      <Response>
+        <a href="https://github.com/SynHub/automated-live-chat-demo">Click Here</a> to download the Automated Live Chat Demo project based on SIML.</Response>
+    </Model>
+    
+    <!--Patterns-->
+    <Model>
+      <Pattern>WHAT IS [SYN-BOT]</Pattern>
+      <Example>What is [Syn-Bot]?</Example>
+      <Response>
+         Syn Bot is an official Synthetic Intelligence Markup Language interpreter developed by us. You can use SIML Bot in your free or commercial software as long as you are an Individual Developer. 
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>
+        <Item>{DOWNLOAD [SYN-BOT]}</Item>
+        <Item>{[SYN-BOT] NUGET}</Item>
+        <Item>{NUGET [SYN-BOT]}</Item>
+      </Pattern>
+      <Example>
+        <Item>Where can I download [Syn-Bot]?</Item>
+        <Item>[Syn-Bot] NuGet Package.</Item>
+      </Example>
+    </Model>
+    
+    <Model>
+      <Pattern>{SYN ENGINE}</Pattern>
+      <Response>
+        Syn Engine has been replaced by Syn Bot Framework.
+      </Response>
+    </Model>
+    
+    <Model>
+      <Pattern>HOW CAN I UPDATE SYN BOT</Pattern>
+      <Response>Syn Bot is deployed only via Nuget and if you use Nuget in Visual Studio you will automatically receive the new version.</Response>
+    </Model>
+    
+  </Concept>
+</Siml>
