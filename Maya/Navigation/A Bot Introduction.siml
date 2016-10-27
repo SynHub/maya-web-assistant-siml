@@ -32,7 +32,7 @@ If you any time find yourself lost use /start to get this list again.
     <Model>
       <Pattern>#SLASH BROWSE</Pattern>
       <Response Label=":browse-command">
-         How can I help you? 
+         What is the nature of your inquiry? 
         <Hint>Product|Company|Community</Hint></Response>
     </Model>
     

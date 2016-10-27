@@ -2,11 +2,13 @@
 <Siml>
   <Concept Name="Community">
     <!--/Browse Option-->
+    
     <Model>
       <Pattern>COMMUNITY</Pattern>
       <Response Label=":browse-command" xml:space="preserve">
 <a href="http://developer.syn.co.in">Syn Developer Network</a> - Get all tutorials and documentation in our Developer Network.
 <a href="http://forum.syn.co.in">Syn Developer Forum</a> - Post questions and get answers from other AI Experts.
+<a href="http://lobby.syn.co.in">Syn Community Lobby</a> - Chat with other AI developers and our team members.
       </Response>
     </Model>
     
